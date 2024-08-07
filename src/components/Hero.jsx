@@ -1,10 +1,6 @@
 import React,{useState} from "react";
 import logo from "../images/logo.webp";
-<<<<<<< HEAD
-import './component.css'; 
-=======
 import './component.css'; // Import the CSS file
->>>>>>> pawan123
 
 function Hero() {
   const [isOpen, setIsOpen] = useState(false);
@@ -84,9 +80,6 @@ function Hero() {
                 <li>
                   <a href="#">Infrastructure </a>
                 </li>
-<<<<<<< HEAD
-               
-=======
                 <li>
                   <a href="#">Photo Gallery</a>
                 </li>
@@ -96,7 +89,6 @@ function Hero() {
                 <li>
                   <a href="#">Media Gallery</a>
                 </li>
->>>>>>> pawan123
               </ul>
             </li>
             <li>
@@ -238,9 +230,6 @@ function Hero() {
                 <li>
                   <a href="#">Infrastructure </a>
                 </li>
-<<<<<<< HEAD
-                
-=======
                 <li>
                   <a href="#">Photo Gallery</a>
                 </li>
@@ -250,7 +239,6 @@ function Hero() {
                 <li>
                   <a href="#">Media Gallery</a>
                 </li>
->>>>>>> pawan123
               </ul>
             </li>
           </ul>
@@ -298,9 +286,6 @@ function Hero() {
               <li>
                 <a href="#">Infrastructure</a>
               </li>
-<<<<<<< HEAD
-              
-=======
               <li>
                 <a href="#">Photo Gallery</a>
               </li>
@@ -310,7 +295,6 @@ function Hero() {
               <li>
                 <a href="#">Media Gallery</a>
               </li>
->>>>>>> pawan123
             </ul>
           </li>
           <li className="accordion-item">
