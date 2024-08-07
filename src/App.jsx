@@ -7,13 +7,12 @@ import Footer from "./components/Footer";
 import Gallery from "./components/Gallery";
 import Hero from "./components/Hero";
 import HeroSlider from "./components/HeroSlider";
-
 import Infra from "./components/Infra";
 import Message from "./components/Message";
 import Review from "./components/Review";
 import Teacher from "./components/Teacher";
-
 import Welcome from "./components/Welcome";
+
 
 
 function App() {
@@ -34,6 +33,7 @@ function App() {
         <Review/>
         <Events/>
         <Footer/>
+
       </div>
     </>
   );

@@ -1,6 +1,6 @@
 import React,{useState} from "react";
 import logo from "../images/logo.webp";
-import './component.css'; // Import the CSS file
+import './component.css'; 
 
 function Hero() {
   const [isOpen, setIsOpen] = useState(false);
