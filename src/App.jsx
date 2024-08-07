@@ -15,13 +15,14 @@ import Welcome from "./components/Welcome";
 
 
 
+
 function App() {
   return (
     <>
       <div>
         <Hero/>
         <HeroSlider/>
-        
+
         <Welcome />
         <Message />
         <Dislay />
