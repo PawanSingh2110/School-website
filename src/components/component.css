@@ -32,7 +32,6 @@
   cursor: pointer;
   border: none; 
    outline: none;
-  
   padding: 0 10px; /* Add padding to create the gap between images */
 }
 
@@ -57,11 +56,6 @@
   cursor: pointer;
   color: white; /* Color for the SVG */
 }
-
-
-
-
-
 
 .overlay-text {
   font-size: 18px;
@@ -111,7 +105,7 @@
   color: gray;
   font-weight: 500;
   background: white;
-  border: 1px solid;
+  /* border: 1px solid ; */
   width: 200px;
   border-top: 3px solid black;
   z-index: 10;
