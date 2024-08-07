@@ -270,15 +270,7 @@ function Hero() {
               <li>
                 <a href="#">Infrastructure</a>
               </li>
-              <li>
-                <a href="#">Photo Gallery</a>
-              </li>
-              <li>
-                <a href="#">Video Gallery</a>
-              </li>
-              <li>
-                <a href="#">Media Gallery</a>
-              </li>
+              
             </ul>
           </li>
           <li className="accordion-item">
