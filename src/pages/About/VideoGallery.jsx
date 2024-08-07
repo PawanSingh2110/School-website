@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { videoData } from '../../components/data'; 
 import VideoCard from '../../components/VideoCard';
+import AboutSection from '../../components/AboutSection';
 import '../../components/component.css';
 
 const VideoGallery = () => {
@@ -33,8 +34,9 @@ const VideoGallery = () => {
     );
   };
 
-
   return (
+    <div>
+    <AboutSection pageTitle="Video Gallery" breadcrumb="Video Album" />
     <div className="media-gallery">
       {selectedVideo && (
         <div ref={selectedVideoRef} className="selected-media">
@@ -61,6 +63,7 @@ const VideoGallery = () => {
           Load More Videos
         </button>
       )}
+    </div>
     </div>
   );
 };

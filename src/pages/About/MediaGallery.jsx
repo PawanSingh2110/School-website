@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { mediaData } from '../../components/data';
 import MediaCard from '../../components/MediaCard';
+import AboutSection from '../../components/AboutSection';
 import '../../components/component.css';
 
 const MediaGallery = () => {
@@ -34,7 +35,10 @@ const MediaGallery = () => {
   };
 
   return (
+    <div>
+    <AboutSection pageTitle="Media Gallery" breadcrumb="Media Album" />
     <div className="media-gallery">
+      
       {selectedMedia && (
         <div ref={selectedMediaRef} className="selected-media">
           <h3>{renderTitleWithUnderline(selectedMedia.title)}</h3>
@@ -53,6 +57,7 @@ const MediaGallery = () => {
           Load More Albums
         </button>
       )}
+    </div>
     </div>
   );
 };

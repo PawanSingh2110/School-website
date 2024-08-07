@@ -381,7 +381,7 @@ label{
   font-size: 28px;
   color: #333;
   text-align: left;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   font-weight: bold;
 }
 
@@ -586,7 +586,7 @@ label{
   font-size: 28px;
   color: #333;
   text-align: left;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   font-weight: bold;
 }
 
@@ -725,4 +725,41 @@ label{
   .selected-media {
     padding: 0;
   }
+}
+
+.about-section {
+  position: relative;
+  background-image: url('/src/images/slider_1.webp');
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+  text-align: center;
+  color: white;
+  margin-bottom: 50px;
+  opacity: 0.8; 
+}
+
+
+.about-section h1 {
+  margin-bottom: 20px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.breadcrumb {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.breadcrumb a {
+  color: white;
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+ font-weight: bold;
+}
+
+.breadcrumb span {
+  color: white;
 }
