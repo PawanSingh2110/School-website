@@ -32,6 +32,15 @@
   cursor: pointer;
   border: none; 
    outline: none;
+  padding-bottom: 40px;
+}
+
+.slide {
+  width: 80%;
+  cursor: pointer;
+  border: none; 
+   outline: none;
+  
   padding: 0 10px; /* Add padding to create the gap between images */
 }
 

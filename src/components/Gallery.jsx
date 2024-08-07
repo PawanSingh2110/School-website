@@ -4,7 +4,6 @@ import './component.css';
 import Image from '../images/school_image.jpeg';
 import Image2 from '../images/videoimg1.jpg';
 import Image3 from '../images/Mediaimg1.jpg';
-
 const Gallery = () => {
   const [value, setValue] = useState("Photodata");
         
