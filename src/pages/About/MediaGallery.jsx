@@ -1,8 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { mediaData } from '../../components/data';
 import MediaCard from '../../components/MediaCard';
-import Hero from '../../components/Hero';
-import Footer from '../../components/Footer';
 import '../../components/component.css';
 
 const MediaGallery = () => {
@@ -36,8 +34,6 @@ const MediaGallery = () => {
   };
 
   return (
-    <>
-      <Hero />
     <div className="media-gallery">
       {selectedMedia && (
         <div ref={selectedMediaRef} className="selected-media">
@@ -58,8 +54,6 @@ const MediaGallery = () => {
         </button>
       )}
     </div>
-    <Footer /> 
-    </>
   );
 };
 

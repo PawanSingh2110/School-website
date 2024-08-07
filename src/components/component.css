@@ -387,6 +387,7 @@ label{
 
 .underline {
   border-bottom: 3px solid #333;
+  text-decoration-line:none !important;
 }
 
 .media-grid {

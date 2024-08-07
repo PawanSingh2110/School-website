@@ -1,4 +1,5 @@
 import "./App.css";
+import { Routes, Route } from 'react-router-dom';
 import Brands from "./components/Brands";
 import Counter from "./components/Counter";
 import Dislay from "./components/Dislay";
@@ -12,31 +13,34 @@ import Message from "./components/Message";
 import Review from "./components/Review";
 import Teacher from "./components/Teacher";
 import Welcome from "./components/Welcome";
-
-
-
+import MediaGallery from './pages/About/MediaGallery';
+import VideoGallery from './pages/About/VideoGallery';
 
 function App() {
   return (
-    <>
-      <div>
-        <Hero/>
-        <HeroSlider/>
-
-        <Welcome />
-        <Message />
-        <Dislay />
-        <Infra />
-        <Teacher />
-        <Brands/>
-        <Gallery/>
-        <Counter/>
-        <Review/>
-        <Events/>
-        <Footer/>
-
-      </div>
-    </>
+    <div>
+     <Hero />
+      <Routes>
+        <Route path="/" element={
+          <>
+          <HeroSlider />
+            <Welcome />
+            <Message />
+            <Dislay />
+            <Infra />
+            <Teacher />
+            <Brands />
+            <Gallery />
+            <Counter />
+            <Review />
+            <Events />
+          </>
+        } />
+        <Route path="/media-gallery" element={<MediaGallery />} />
+        <Route path="/video-gallery" element={<VideoGallery />} />
+      </Routes>
+      <Footer />
+    </div>
   );
 }
 

@@ -1,8 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { videoData } from '../../components/data'; 
 import VideoCard from '../../components/VideoCard';
-import Hero from '../../components/Hero';
-import Footer from '../../components/Footer';
 import '../../components/component.css';
 
 const VideoGallery = () => {
@@ -37,8 +35,6 @@ const VideoGallery = () => {
 
 
   return (
-    <>
-      <Hero />
     <div className="media-gallery">
       {selectedVideo && (
         <div ref={selectedVideoRef} className="selected-media">
@@ -66,8 +62,6 @@ const VideoGallery = () => {
         </button>
       )}
     </div>
-    <Footer /> 
-    </>
   );
 };
 
