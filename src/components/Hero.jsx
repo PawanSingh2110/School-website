@@ -189,7 +189,7 @@ function Hero() {
             </label>
             <ul className="accordion-content">
               <li>
-                <a href="#">Founder's Desk</a>
+              <Link to="/Founder-desk">Founder's Desk</Link>
               </li>
               <li>
                 <a href="#">Principal's Desk</a>

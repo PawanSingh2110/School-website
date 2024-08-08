@@ -11,7 +11,6 @@ const Founderdesk = () => {
       <div className=" title w-full h-48 py-10  text-white bg-orange-500">
         <h1 className="lg:text-5xl text-3xl font-medium text-center ">About</h1>
         <h1 className="text-center font-bold mt-5 flex items-center gap-1 justify-center">Home <FaArrowRight/> About Us <FaArrowRight/> <span className="font-medium "> Founder's Desk</span> </h1>
-        
       </div>
 
       <div className="h-auto" style={{ backgroundImage: `url(${p6})` }}>
@@ -47,7 +46,7 @@ const Founderdesk = () => {
           </div>
 
           <div>
-            <img src={founder} alt="" className=" w-[100%] h-auto border-4 border-black" />
+            <img src={founder} alt="image" className=" w-[100%] h-auto border-4 border-black" />
           </div>
         </div>
       </div>
