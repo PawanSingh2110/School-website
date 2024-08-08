@@ -2,7 +2,13 @@ import React from "react";
 
 const Pricipledesk = () => {
   return (
-    <div className="grid grid-cols-1 xl:grid-cols-3">
+    <div>
+      <div className=" title w-full h-48 py-10  text-white bg-orange-500">
+        <h1 className="lg:text-5xl text-3xl font-medium text-center ">About</h1>
+        <h1 className="text-center font-bold mt-5">Home > About Us > <span className="font-medium "> Principal's Desk</span> </h1>
+        
+      </div>
+      <div className="grid grid-cols-1 xl:grid-cols-3">
       <div className="text-start col-span-2 p-4 lg:p-20 order-last xl:order-first">
         <h1 className="text-2xl text-gray-600 font-semibold">Welcome To</h1>
         <h1 className="text-4xl font-semibold text-red-500">Little Scholars</h1>
@@ -47,6 +53,7 @@ const Pricipledesk = () => {
           alt="" className="rounded-xl lg:w-[350px] lg:ml-40 xl:ml-0 xl:float-left xl:mt-20 2xl:mt-10 xl:w-[450px]"
         />
       </div>
+    </div>
     </div>
   );
 };
