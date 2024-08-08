@@ -1,12 +1,12 @@
 import React from "react";
-import { FaArrowAltCircleRight } from "react-icons/fa";
+import { FaArrowAltCircleRight, FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 const SchoolManagement = () => {
   return (
     <div className="">
       <div className=" title w-full h-48 py-10  text-white bg-orange-500">
         <h1 className="lg:text-5xl text-3xl font-medium text-center ">SCHOOL MANAGEMENT</h1>
-        <h1 className="text-center font-bold mt-5">Home > About Us > <span className="font-medium ">School-Management</span> </h1>
+        <h1 className="text-center font-bold mt-5 flex items-center gap-1 justify-center">Home <FaArrowRight/> About Us <FaArrowRight/> <span className="font-medium "> Principal's Desk</span> </h1>
         
       </div>
       <div className="p-20">
