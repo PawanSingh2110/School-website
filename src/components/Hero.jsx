@@ -80,15 +80,6 @@ function Hero() {
                 <li>
                   <a href="#">Infrastructure </a>
                 </li>
-                <li>
-                  <a href="#">Photo Gallery</a>
-                </li>
-                <li>
-                  <a href="#">Video Gallery</a>
-                </li>
-                <li>
-                  <a href="#">Media Gallery</a>
-                </li>
               </ul>
             </li>
             <li>
@@ -221,24 +212,6 @@ function Hero() {
                 <li>
                   <a href="#">Guest Book</a>
                 </li>
-                <li>
-                  <a href="#">Managing Committee</a>
-                </li>
-                <li>
-                  <a href="#">Principal & Policies</a>
-                </li>
-                <li>
-                  <a href="#">Infrastructure </a>
-                </li>
-                <li>
-                  <a href="#">Photo Gallery</a>
-                </li>
-                <li>
-                  <a href="#">Video Gallery</a>
-                </li>
-                <li>
-                  <a href="#">Media Gallery</a>
-                </li>
               </ul>
             </li>
           </ul>
@@ -285,15 +258,6 @@ function Hero() {
               </li>
               <li>
                 <a href="#">Infrastructure</a>
-              </li>
-              <li>
-                <a href="#">Photo Gallery</a>
-              </li>
-              <li>
-                <a href="#">Video Gallery</a>
-              </li>
-              <li>
-                <a href="#">Media Gallery</a>
               </li>
             </ul>
           </li>
@@ -451,24 +415,6 @@ function Hero() {
               </li>
               <li>
                 <a href="#">Guest Book</a>
-              </li>
-              <li>
-                <a href="#">Managing Committee</a>
-              </li>
-              <li>
-                <a href="#">Principal & Policies</a>
-              </li>
-              <li>
-                <a href="#">Infrastructure</a>
-              </li>
-              <li>
-                <a href="#">Photo Gallery</a>
-              </li>
-              <li>
-                <a href="#">Video Gallery</a>
-              </li>
-              <li>
-                <a href="#">Media Gallery</a>
               </li>
             </ul>
           </li>
