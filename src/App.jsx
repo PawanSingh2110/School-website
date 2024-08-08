@@ -42,9 +42,6 @@ function App() {
           <Route path="/Addmission-Prodecure" element={<Prodecure />} />
           <Route path="/Fees-structure" element={<Feesstructure />} />
           <Route path="/Registration" element={<Registration />} />
-          {/* About US */}
-          <Route path="/media-gallery" element={<MediaGallery />} />
-          <Route path="/video-gallery" element={<VideoGallery />} />
         </Routes>
         
         <Footer/>
