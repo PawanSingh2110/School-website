@@ -1,14 +1,15 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
+import { Link } from 'react-router-dom';
 import logo from "../images/logo.webp";
 import './component.css'; // Import the CSS file
 
 
 function Hero() {
   const [isOpen, setIsOpen] = useState(false);
- 
+
   return (
     <>
-      <div className="head flex justify-between text-semibold text-white py-4 pl-20 pr-10 max-xl:flex-col items-center gap-5 max-sm:hidden ">
+      <div className="head flex justify-between text-semibold text-white py-4 pl-20 pr-10 max-xl:flex-col items-center gap-5 max-sm:hidden">
         <div className="flex gap-5 max-lg:flex-wrap justify-center">
           <div className="flex justify-center items-center gap-2 cursor-pointer">
             <i className="fa-solid fa-phone"></i>
@@ -52,372 +53,220 @@ function Hero() {
         </div>
       </div>
 
-      <nav className="sticky top-0 z-20 w-full flex flex-row justify-between items-center py-5 px-20  bg-white  max-xl:px-5">
-        <div class="logo">
-          <img src={logo} alt="" />
+      <nav className="sticky top-0 z-20 w-full flex flex-row justify-between items-center py-5 px-20 bg-white max-xl:px-5">
+        <div className="logo">
+          <img src={logo} alt="Logo" />
         </div>
         <div className="text-base font-semibold max-xl:hidden">
-          <ul className="flex ">
+          <ul className="flex">
             <li className="dropdown">
               <div className="menu py-3 mb-4">
-                <a href="#"  >About us</a>
-                <i class="fa-solid fa-chevron-down p-1"></i>
+                <a href="#">About us</a>
+                <i className="fa-solid fa-chevron-down p-1"></i>
               </div>
               <ul className="submenu">
-                <li>
-                  <a href="#">Founder's Desk</a>
-                </li>
-                <li>
-                  <a href="#">Principal's Desk</a>
-                </li>
-                <li>
-                  <a href="#">School Management</a>
-                </li>
-                <li>
-                  <a href="#">Managing Committee</a>
-                </li>
-                <li>
-                  <a href="#">Principal & Policies</a>
-                </li>
-                <li>
-                  <a href="#">Infrastructure </a>
-                </li>
+                <li><Link to="#">Founder's Desk</Link></li>
+                <li><Link to="#">Principal's Desk</Link></li>
+                <li><Link to="#">School Management</Link></li>
+                <li><Link to="#">Managing Committee</Link></li>
+                <li><Link to="#">Principal & Policies</Link></li>
+                <li><Link to="#">Infrastructure</Link></li>
+                <li><Link to="#">Photo Gallery</Link></li>
+                <li><Link to="/video-gallery">Video Gallery</Link></li>
+                <li><Link to="/media-gallery">Media Gallery</Link></li>
               </ul>
             </li>
             <li>
               <div className="menu py-3 mb-4">
                 <a href="#">Admission</a>
-                <i class="fa-solid fa-chevron-down p-1"></i>
+                <i className="fa-solid fa-chevron-down p-1"></i>
               </div>
               <ul className="submenu">
-                <li>
-                  <a href="#">Admission Helpdesk / School Visit</a>
-                </li>
-                <li>
-                  <a href="#">Admission Procedure</a>
-                </li>
-                <li>
-                  <a href="#">Registration</a>
-                </li>
-                <li>
-                  <a href="#">Fee Structure</a>
-                </li>
-                <li>
-                  <a href="#">Scholarship</a>
-                </li>
-                <li>
-                  <a href="#">School Timings</a>
-                </li>
-                <li>
-                  <a href="#">FAQ's</a>
-                </li>
+                <li><Link to="#">Admission Helpdesk / School Visit</Link></li>
+                <li><Link to="#">Admission Procedure</Link></li>
+                <li><Link to="#">Registration</Link></li>
+                <li><Link to="#">Fee Structure</Link></li>
+                <li><Link to="#">Scholarship</Link></li>
+                <li><Link to="#">School Timings</Link></li>
+                <li><Link to="#">FAQ's</Link></li>
               </ul>
             </li>
             <li className="dropdown">
               <div className="menu py-3 mb-4">
                 <a href="#">Student Life</a>
-                <i class="fa-solid fa-chevron-down p-1"></i>
+                <i className="fa-solid fa-chevron-down p-1"></i>
               </div>
               <ul className="submenu">
-                <li>
-                  <a href="#">Academics</a>
-                </li>
-                <li>
-                  <a href="#">Sports</a>
-                </li>
-                <li>
-                  <a href="#">Swimming Pool Form</a>
-                </li>
-                <li>
-                  <a href="#">Blood Donation Form</a>
-                </li>
-                <li>
-                  <a href="#">Co-Curricular</a>
-                </li>
-                <li>
-                  <a href="#">Socio-Cultural Development</a>
-                </li>
-                <li>
-                  <a href="#">Counselling</a>
-                </li>
+                <li><Link to="#">Academics</Link></li>
+                <li><Link to="#">Sports</Link></li>
+                <li><Link to="#">Swimming Pool Form</Link></li>
+                <li><Link to="#">Blood Donation Form</Link></li>
+                <li><Link to="#">Co-Curricular</Link></li>
+                <li><Link to="#">Socio-Cultural Development</Link></li>
+                <li><Link to="#">Counselling</Link></li>
                 <li className="dropdown">
                   <div>
-                    <a href="#">Council Guidlines</a>
-                    <i class="fa-solid fa-chevron-right p-1"></i>
+                    <Link to="#">Council Guidelines</Link>
+                    <i className="fa-solid fa-chevron-right p-1"></i>
                   </div>
                   <ul className="submenu sub-menu-right">
-                    <li>
-                      <a href="#">Student Form</a>
-                    </li>
-                    <li>
-                      <a href="#">Parent Form</a>
-                    </li>
+                    <li><Link to="#">Student Form</Link></li>
+                    <li><Link to="#">Parent Form</Link></li>
                   </ul>
                 </li>
-                <li>
-                  <a href="#">Achievements</a>
-                </li>
-                <li>
-                  <a href="#">Events Calendar</a>
-                </li>
-                <li>
-                  <a href="#">Toppers</a>
-                </li>
-                <li>
-                  <a href="#">Cabinet</a>
-                </li>
+                <li><Link to="#">Achievements</Link></li>
+                <li><Link to="#">Events Calendar</Link></li>
+                <li><Link to="#">Toppers</Link></li>
+                <li><Link to="#">Cabinet</Link></li>
               </ul>
             </li>
             <li>
               <div className="menu py-3 mb-4">
                 <a href="#">News & Calendar</a>
-                <i class="fa-solid fa-chevron-down p-1"></i>
+                <i className="fa-solid fa-chevron-down p-1"></i>
               </div>
               <ul className="submenu">
-                <li>
-                  <a href="#">Student Hand Book</a>
-                </li>
-                <li>
-                  <a href="#">Newsletter / Scholar Times</a>
-                </li>
+                <li><Link to="#">Student Hand Book</Link></li>
+                <li><Link to="#">Newsletter / Scholar Times</Link></li>
               </ul>
             </li>
             <li>
               <div className="menu py-3 mb-4">
                 <a href="#">Mandatory Disclosures</a>
-                <i class="fa-solid fa-chevron-down p-1"></i>
+                <i className="fa-solid fa-chevron-down p-1"></i>
               </div>
               <ul className="submenu">
-                <li>
-                  <a href="#">Book List</a>
-                </li>
-                <li>
-                  <a href="#">Safety Certificates & Affiliations</a>
-                </li>
-                <li>
-                  <a href="#">CBSE-OASIS</a>
-                </li>
+                <li><Link to="#">Book List</Link></li>
+                <li><Link to="#">Safety Certificates & Affiliations</Link></li>
+                <li><Link to="#">CBSE-OASIS</Link></li>
               </ul>
             </li>
             <li>
               <div className="menu py-3 mb-4">
                 <a href="#">Contact Us</a>
-                <i class="fa-solid fa-chevron-down p-1"></i>
+                <i className="fa-solid fa-chevron-down p-1"></i>
               </div>
               <ul className="submenu">
-                <li>
-                  <a href="#">Reach Us</a>
-                </li>
-                <li>
-                  <a href="#">Career</a>
-                </li>
-                <li>
-                  <a href="#">Guest Book</a>
-                </li>
+                <li><Link to="#">Reach Us</Link></li>
+                <li><Link to="#">Career</Link></li>
+                <li><Link to="#">Guest Book</Link></li>
+                <li><Link to="#">Managing Committee</Link></li>
+                <li><Link to="#">Principal & Policies</Link></li>
+                <li><Link to="#">Infrastructure</Link></li>
+                <li><Link to="#">Photo Gallery</Link></li>
+                <li><Link to="/video-gallery">Video Gallery</Link></li>
+                <li><Link to="/media-gallery">Media Gallery</Link></li>
               </ul>
             </li>
           </ul>
         </div>
-        <div 
-        className="xl:hidden"
-        onClick={() => setIsOpen(!isOpen)}
-        >
-          <i class="fa-solid fa-bars text-2xl"></i>
+        <div className="xl:hidden" onClick={() => setIsOpen(!isOpen)}>
+          <i className="fa-solid fa-bars text-2xl"></i>
         </div>
       </nav>
 
-      <div 
-      className={`hamburger h-[100%] ${
-        isOpen ? "block" : "hidden"
-      }`}
-      >
-        <div 
-        onClick={() => setIsOpen(!isOpen)}
-          >
-        <i className="fa-solid fa-xmark text-3xl text-white cursor-pointer p-2"></i>
+      <div className={`hamburger h-[100%] ${isOpen ? "block" : "hidden"}`}>
+        <div onClick={() => setIsOpen(!isOpen)}>
+          <i className="fa-solid fa-xmark text-3xl text-white cursor-pointer p-2"></i>
         </div>
         <ul className="accordion text-xl">
           <li className="accordion-item">
             <input type="checkbox" id="about-us" className="accordion-toggle" />
-            <label for="about-us" className="accordion-header">
+            <label htmlFor="about-us" className="accordion-header">
               About us <i className="fa-solid fa-chevron-down"></i>
             </label>
             <ul className="accordion-content">
-              <li>
-                <a href="#">Founder's Desk</a>
-              </li>
-              <li>
-                <a href="#">Principal's Desk</a>
-              </li>
-              <li>
-                <a href="#">School Management</a>
-              </li>
-              <li>
-                <a href="#">Managing Committee</a>
-              </li>
-              <li>
-                <a href="#">Principal & Policies</a>
-              </li>
-              <li>
-                <a href="#">Infrastructure</a>
-              </li>
+              <li><Link to="#">Founder's Desk</Link></li>
+              <li><Link to="#">Principal's Desk</Link></li>
+              <li><Link to="#">School Management</Link></li>
+              <li><Link to="#">Managing Committee</Link></li>
+              <li><Link to="#">Principal & Policies</Link></li>
+              <li><Link to="#">Infrastructure</Link></li>
+              <li><Link to="#">Photo Gallery</Link></li>
+              <li><Link to="/video-gallery">Video Gallery</Link></li>
+              <li><Link to="/media-gallery">Media Gallery</Link></li>
             </ul>
           </li>
           <li className="accordion-item">
-            <input
-              type="checkbox"
-              id="admission"
-              className="accordion-toggle"
-            />
-            <label for="admission" className="accordion-header">
+            <input type="checkbox" id="admission" className="accordion-toggle" />
+            <label htmlFor="admission" className="accordion-header">
               Admission <i className="fa-solid fa-chevron-down"></i>
             </label>
             <ul className="accordion-content">
-              <li>
-                <a href="#">Admission Helpdesk / School Visit</a>
-              </li>
-              <li>
-                <a href="#">Admission Procedure</a>
-              </li>
-              <li>
-                <a href="#">Registration</a>
-              </li>
-              <li>
-                <a href="#">Fee Structure</a>
-              </li>
-              <li>
-                <a href="#">Scholarship</a>
-              </li>
-              <li>
-                <a href="#">School Timings</a>
-              </li>
-              <li>
-                <a href="#">FAQ's</a>
-              </li>
+              <li><Link to="#">Admission Helpdesk / School Visit</Link></li>
+              <li><Link to="#">Admission Procedure</Link></li>
+              <li><Link to="#">Registration</Link></li>
+              <li><Link to="#">Fee Structure</Link></li>
+              <li><Link to="#">Scholarship</Link></li>
+              <li><Link to="#">School Timings</Link></li>
+              <li><Link to="#">FAQ's</Link></li>
             </ul>
           </li>
           <li className="accordion-item">
-            <input
-              type="checkbox"
-              id="student-life"
-              className="accordion-toggle"
-            />
-            <label for="student-life" className="accordion-header">
+            <input type="checkbox" id="student-life" className="accordion-toggle" />
+            <label htmlFor="student-life" className="accordion-header">
               Student Life <i className="fa-solid fa-chevron-down"></i>
             </label>
             <ul className="accordion-content">
-              <li>
-                <a href="#">Academics</a>
-              </li>
-              <li>
-                <a href="#">Sports</a>
-              </li>
-              <li>
-                <a href="#">Swimming Pool Form</a>
-              </li>
-              <li>
-                <a href="#">Blood Donation Form</a>
-              </li>
-              <li>
-                <a href="#">Co-Curricular</a>
-              </li>
-              <li>
-                <a href="#">Socio-Cultural Development</a>
-              </li>
-              <li>
-                <a href="#">Counselling</a>
-              </li>
-              <li class="accordion-item">
-                <input
-                  type="checkbox"
-                  id="council-guidelines"
-                  className="accordion-toggle"
-                />
-                <label for="council-guidelines" className="accordion-header">
-                  Council Guidelines{" "}
-                  <i className="fa-solid fa-chevron-right"></i>
+              <li><Link to="#">Academics</Link></li>
+              <li><Link to="#">Sports</Link></li>
+              <li><Link to="#">Swimming Pool Form</Link></li>
+              <li><Link to="#">Blood Donation Form</Link></li>
+              <li><Link to="#">Co-Curricular</Link></li>
+              <li><Link to="#">Socio-Cultural Development</Link></li>
+              <li><Link to="#">Counselling</Link></li>
+              <li className="accordion-item">
+                <input type="checkbox" id="council-guidelines" className="accordion-toggle" />
+                <label htmlFor="council-guidelines" className="accordion-header">
+                  Council Guidelines <i className="fa-solid fa-chevron-right"></i>
                 </label>
                 <ul className="accordion-content">
-                  <li>
-                    <a href="#">Student Form</a>
-                  </li>
-                  <li>
-                    <a href="#">Parent Form</a>
-                  </li>
+                  <li><Link to="#">Student Form</Link></li>
+                  <li><Link to="#">Parent Form</Link></li>
                 </ul>
               </li>
-              <li>
-                <a href="#">Achievements</a>
-              </li>
-              <li>
-                <a href="#">Events Calendar</a>
-              </li>
-              <li>
-                <a href="#">Toppers</a>
-              </li>
-              <li>
-                <a href="#">Cabinet</a>
-              </li>
+              <li><Link to="#">Achievements</Link></li>
+              <li><Link to="#">Events Calendar</Link></li>
+              <li><Link to="#">Toppers</Link></li>
+              <li><Link to="#">Cabinet</Link></li>
             </ul>
           </li>
           <li className="accordion-item">
-            <input
-              type="checkbox"
-              id="news-calendar"
-              className="accordion-toggle"
-            />
-            <label for="news-calendar" className="accordion-header">
+            <input type="checkbox" id="news-calendar" className="accordion-toggle" />
+            <label htmlFor="news-calendar" className="accordion-header">
               News & Calendar <i className="fa-solid fa-chevron-down"></i>
             </label>
             <ul className="accordion-content">
-              <li>
-                <a href="#">Student Hand Book</a>
-              </li>
-              <li>
-                <a href="#">Newsletter / Scholar Times</a>
-              </li>
+              <li><Link to="#">Student Hand Book</Link></li>
+              <li><Link to="#">Newsletter / Scholar Times</Link></li>
             </ul>
           </li>
           <li className="accordion-item">
-            <input
-              type="checkbox"
-              id="mandatory-disclosures"
-              className="accordion-toggle"
-            />
-            <label for="mandatory-disclosures" className="accordion-header">
+            <input type="checkbox" id="mandatory-disclosures" className="accordion-toggle" />
+            <label htmlFor="mandatory-disclosures" className="accordion-header">
               Mandatory Disclosures <i className="fa-solid fa-chevron-down"></i>
             </label>
             <ul className="accordion-content">
-              <li>
-                <a href="#">Book List</a>
-              </li>
-              <li>
-                <a href="#">Safety Certificates & Affiliations</a>
-              </li>
-              <li>
-                <a href="#">CBSE-OASIS</a>
-              </li>
+              <li><Link to="#">Book List</Link></li>
+              <li><Link to="#">Safety Certificates & Affiliations</Link></li>
+              <li><Link to="#">CBSE-OASIS</Link></li>
             </ul>
           </li>
           <li className="accordion-item">
-            <input
-              type="checkbox"
-              id="contact-us"
-              className="accordion-toggle"
-            />
-            <label for="contact-us" className="accordion-header">
+            <input type="checkbox" id="contact-us" className="accordion-toggle" />
+            <label htmlFor="contact-us" className="accordion-header">
               Contact Us <i className="fa-solid fa-chevron-down"></i>
             </label>
             <ul className="accordion-content">
-              <li>
-                <a href="#">Reach Us</a>
-              </li>
-              <li>
-                <a href="#">Career</a>
-              </li>
-              <li>
-                <a href="#">Guest Book</a>
-              </li>
+              <li><Link to="#">Reach Us</Link></li>
+              <li><Link to="#">Career</Link></li>
+              <li><Link to="#">Guest Book</Link></li>
+              <li><Link to="#">Managing Committee</Link></li>
+              <li><Link to="#">Principal & Policies</Link></li>
+              <li><Link to="#">Infrastructure</Link></li>
+              <li><Link to="#">Photo Gallery</Link></li>
+              <li><Link to="/videp-gallery">Video Gallery</Link></li>
+              <li><Link to="/media-gallery">Media Gallery</Link></li>
             </ul>
           </li>
         </ul>
