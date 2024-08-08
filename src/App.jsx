@@ -1,5 +1,9 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import Brands from "./components/Brands";
+import Counter from "./components/Counter";
+import Dislay from "./components/Dislay";
+import Events from "./components/Events";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Home from "./pages/home/Home";
@@ -15,8 +19,8 @@ import Prodecure from "./pages/Addmission-Prodecure/Prodecure";
 import Feesstructure from "./pages/Fees-Structure/Feesstructure";
 import Registration from "./pages/Registration/Registration";
 
-
-
+import MediaGallery from './pages/About/MediaGallery';
+import VideoGallery from './pages/About/VideoGallery';
 
 function App() {
   return (
@@ -25,6 +29,7 @@ function App() {
         <Hero/>
         <Routes>
           <Route path="/" element={<Home />} />
+          
           <Route path="/About" element={<About />} />
           <Route path="/Founder-desk" element={<Founderdesk/>} />
           <Route path="/Principle-desk" element={<Pricipledesk />} />
@@ -37,13 +42,16 @@ function App() {
           <Route path="/Addmission-Prodecure" element={<Prodecure />} />
           <Route path="/Fees-structure" element={<Feesstructure />} />
           <Route path="/Registration" element={<Registration />} />
-
+          {/* About US */}
+          <Route path="/media-gallery" element={<MediaGallery />} />
+          <Route path="/video-gallery" element={<VideoGallery />} />
         </Routes>
         
         <Footer/>
 
       </div>
     </>
+   
   );
 }
 
