@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Link } from 'react-router-dom';
 import logo from "../images/logo.webp";
 import './component.css'; // Import the CSS file
-import { Link } from "react-router-dom";
 
 
 function Hero() {
@@ -56,7 +55,7 @@ function Hero() {
 
       <nav className="sticky top-0 z-20 w-full flex flex-row justify-between items-center py-5 px-20  bg-white  max-xl:px-5">
         <div class="logo">
-          <img src={logo} alt="" />
+          <Link to="/"><img src={logo} alt="" /></Link>
         </div>
         <div className="text-base font-semibold max-xl:hidden">
           <ul className="flex">
@@ -67,7 +66,7 @@ function Hero() {
               </div>
               <ul className="submenu">
                 <li>
-                  <a href="#">Founder's Desk</a>
+                  <Link to="/Founder-desk">Founder's Desk</Link>
                 </li>
                 <li>
                   <a href="#">Principal's Desk</a>
