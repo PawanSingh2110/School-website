@@ -53,9 +53,9 @@ function Hero() {
         </div>
       </div>
 
-      <nav className="sticky top-0 z-20 w-full flex flex-row justify-between items-center py-5 px-20 bg-white max-xl:px-5">
-        <div className="logo">
-          <img src={logo} alt="Logo" />
+      <nav className="sticky top-0 z-20 w-full flex flex-row justify-between items-center py-5 px-20  bg-white  max-xl:px-5">
+        <div class="logo">
+          <Link to="/"><img src={logo} alt="" /></Link>
         </div>
         <div className="text-base font-semibold max-xl:hidden">
           <ul className="flex">
@@ -65,15 +65,24 @@ function Hero() {
                 <i className="fa-solid fa-chevron-down p-1"></i>
               </div>
               <ul className="submenu">
-                <li><Link to="#">Founder's Desk</Link></li>
-                <li><Link to="#">Principal's Desk</Link></li>
-                <li><Link to="#">School Management</Link></li>
-                <li><Link to="#">Managing Committee</Link></li>
-                <li><Link to="#">Principal & Policies</Link></li>
-                <li><Link to="#">Infrastructure</Link></li>
-                <li><Link to="#">Photo Gallery</Link></li>
-                <li><Link to="/video-gallery">Video Gallery</Link></li>
-                <li><Link to="/media-gallery">Media Gallery</Link></li>
+                <li>
+                  <Link to="/Founder-desk">Founder's Desk</Link>
+                </li>
+                <li>
+                  <a href="#">Principal's Desk</a>
+                </li>
+                <li>
+                  <a href="#">School Management</a>
+                </li>
+                <li>
+                  <a href="#">Managing Committee</a>
+                </li>
+                <li>
+                  <a href="#">Principal & Policies</a>
+                </li>
+                <li>
+                  <a href="#">Infrastructure </a>
+                </li>
               </ul>
             </li>
             <li>
@@ -160,8 +169,11 @@ function Hero() {
             </li>
           </ul>
         </div>
-        <div className="xl:hidden" onClick={() => setIsOpen(!isOpen)}>
-          <i className="fa-solid fa-bars text-2xl"></i>
+        <div 
+        className="xl:hidden"
+        onClick={() => setIsOpen(!isOpen)}
+        >
+          <i class="fa-solid fa-bars text-2xl"></i>
         </div>
       </nav>
 
@@ -176,15 +188,24 @@ function Hero() {
               About us <i className="fa-solid fa-chevron-down"></i>
             </label>
             <ul className="accordion-content">
-              <li><Link to="#">Founder's Desk</Link></li>
-              <li><Link to="#">Principal's Desk</Link></li>
-              <li><Link to="#">School Management</Link></li>
-              <li><Link to="#">Managing Committee</Link></li>
-              <li><Link to="#">Principal & Policies</Link></li>
-              <li><Link to="#">Infrastructure</Link></li>
-              <li><Link to="#">Photo Gallery</Link></li>
-              <li><Link to="/video-gallery">Video Gallery</Link></li>
-              <li><Link to="/media-gallery">Media Gallery</Link></li>
+              <li>
+              <Link to="/Founder-desk">Founder's Desk</Link>
+              </li>
+              <li>
+                <a href="#">Principal's Desk</a>
+              </li>
+              <li>
+                <a href="#">School Management</a>
+              </li>
+              <li>
+                <a href="#">Managing Committee</a>
+              </li>
+              <li>
+                <a href="#">Principal & Policies</a>
+              </li>
+              <li>
+                <a href="#">Infrastructure</a>
+              </li>
             </ul>
           </li>
           <li className="accordion-item">
