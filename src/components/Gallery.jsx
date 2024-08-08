@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState , useEffect } from "react";
+import { NavLink } from "react-router-dom";
 import './component.css';
 import Image from '../images/school_image.jpeg';
 import Image2 from '../images/videoimg1.jpg';
@@ -217,7 +218,10 @@ const Gallery = () => {
     )}
   
   <div className='flex items-center justify-center mt-8 mb-14'>
-    <a href="#" className='rounded-[6px] tracking-wider px-6 py-3.5 overflow-hidden transition-all duration-200 ease-in-out bg-[#F2184F] border-[#F2184F] text-white text-sm sm:text-base'>View More</a>
+  <NavLink  className='rounded-[6px] tracking-wider px-6 py-3.5 overflow-hidden transition-all duration-200 ease-in-out bg-[#F2184F] border-[#F2184F] text-white text-sm sm:text-base' to="/About" >
+  View More
+   </NavLink>
+   
   </div>
 </div>
 </section>
