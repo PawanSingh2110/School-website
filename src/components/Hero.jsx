@@ -1,13 +1,11 @@
 import React,{useState} from "react";
 import logo from "../images/logo.webp";
-<<<<<<< HEAD
-import './component.css'; 
-=======
 import './component.css'; // Import the CSS file
->>>>>>> pawan123
+import { useNavigation } from "react-router-dom";
 
 function Hero() {
   const [isOpen, setIsOpen] = useState(false);
+ 
   return (
     <>
       <div className="head flex justify-between text-semibold text-white py-4 pl-20 pr-10 max-xl:flex-col items-center gap-5 max-sm:hidden ">
@@ -62,7 +60,7 @@ function Hero() {
           <ul className="flex ">
             <li className="dropdown">
               <div className="menu py-3 mb-4">
-                <a href="#">About us</a>
+                <a href="#"  >About us</a>
                 <i class="fa-solid fa-chevron-down p-1"></i>
               </div>
               <ul className="submenu">
@@ -84,19 +82,6 @@ function Hero() {
                 <li>
                   <a href="#">Infrastructure </a>
                 </li>
-<<<<<<< HEAD
-               
-=======
-                <li>
-                  <a href="#">Photo Gallery</a>
-                </li>
-                <li>
-                  <a href="#">Video Gallery</a>
-                </li>
-                <li>
-                  <a href="#">Media Gallery</a>
-                </li>
->>>>>>> pawan123
               </ul>
             </li>
             <li>
@@ -229,28 +214,6 @@ function Hero() {
                 <li>
                   <a href="#">Guest Book</a>
                 </li>
-                <li>
-                  <a href="#">Managing Committee</a>
-                </li>
-                <li>
-                  <a href="#">Principal & Policies</a>
-                </li>
-                <li>
-                  <a href="#">Infrastructure </a>
-                </li>
-<<<<<<< HEAD
-                
-=======
-                <li>
-                  <a href="#">Photo Gallery</a>
-                </li>
-                <li>
-                  <a href="#">Video Gallery</a>
-                </li>
-                <li>
-                  <a href="#">Media Gallery</a>
-                </li>
->>>>>>> pawan123
               </ul>
             </li>
           </ul>
@@ -298,19 +261,6 @@ function Hero() {
               <li>
                 <a href="#">Infrastructure</a>
               </li>
-<<<<<<< HEAD
-              
-=======
-              <li>
-                <a href="#">Photo Gallery</a>
-              </li>
-              <li>
-                <a href="#">Video Gallery</a>
-              </li>
-              <li>
-                <a href="#">Media Gallery</a>
-              </li>
->>>>>>> pawan123
             </ul>
           </li>
           <li className="accordion-item">
@@ -467,24 +417,6 @@ function Hero() {
               </li>
               <li>
                 <a href="#">Guest Book</a>
-              </li>
-              <li>
-                <a href="#">Managing Committee</a>
-              </li>
-              <li>
-                <a href="#">Principal & Policies</a>
-              </li>
-              <li>
-                <a href="#">Infrastructure</a>
-              </li>
-              <li>
-                <a href="#">Photo Gallery</a>
-              </li>
-              <li>
-                <a href="#">Video Gallery</a>
-              </li>
-              <li>
-                <a href="#">Media Gallery</a>
               </li>
             </ul>
           </li>
