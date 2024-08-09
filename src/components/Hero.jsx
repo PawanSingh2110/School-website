@@ -97,7 +97,7 @@ function Hero() {
                 <li><Link to="#">Fee Structure</Link></li>
                 <li><Link to="#">Scholarship</Link></li>
                 <li><Link to="#">School Timings</Link></li>
-                <li><Link to="#">FAQ's</Link></li>
+                <li><Link to="/FAQ">FAQ's</Link></li>
               </ul>
             </li>
             <li className="dropdown">
