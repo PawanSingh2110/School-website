@@ -81,7 +81,7 @@ function Hero() {
                   <a href="#">Principal & Policies</a>
                 </li>
                 <li>
-                  <a href="#">Infrastructure </a>
+                <Link to="/Infrastructure">Infrastructure</Link>
                 </li>
               </ul>
             </li>
@@ -159,12 +159,6 @@ function Hero() {
                 <li><Link to="#">Reach Us</Link></li>
                 <li><Link to="#">Career</Link></li>
                 <li><Link to="#">Guest Book</Link></li>
-                <li><Link to="#">Managing Committee</Link></li>
-                <li><Link to="#">Principal & Policies</Link></li>
-                <li><Link to="#">Infrastructure</Link></li>
-                <li><Link to="#">Photo Gallery</Link></li>
-                <li><Link to="/video-gallery">Video Gallery</Link></li>
-                <li><Link to="/media-gallery">Media Gallery</Link></li>
               </ul>
             </li>
           </ul>
@@ -282,12 +276,6 @@ function Hero() {
               <li><Link to="#">Reach Us</Link></li>
               <li><Link to="#">Career</Link></li>
               <li><Link to="#">Guest Book</Link></li>
-              <li><Link to="#">Managing Committee</Link></li>
-              <li><Link to="#">Principal & Policies</Link></li>
-              <li><Link to="#">Infrastructure</Link></li>
-              <li><Link to="#">Photo Gallery</Link></li>
-              <li><Link to="/videp-gallery">Video Gallery</Link></li>
-              <li><Link to="/media-gallery">Media Gallery</Link></li>
             </ul>
           </li>
         </ul>
