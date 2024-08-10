@@ -1,10 +1,18 @@
 import React, { useState } from "react";
+import { FaArrowRight } from "react-icons/fa";
 
 const PrinciplePoliecies = () => {
   const [select, setSelect] = useState("primary");
   return (
-    <div class="bg-gray-100 p-8 ">
-      <div class="flex flex-col lg:flex-row">
+    <div>
+        <div className=" title w-full h-48 py-10   text-white bg-orange-500">
+        <h1 className="lg:text-5xl text-3xl font-medium text-center ">Principal and Policies</h1>
+        <h1 className="text-center font-bold mt-5 flex items-center gap-1 justify-center">Home <FaArrowRight/> About Us <FaArrowRight/> <span className="font-medium ">  Principal and Policies</span> </h1>
+        
+      </div>
+      <div class="bg-gray-100 p-8  ">
+      
+      <div class="flex flex-col lg:flex-row mt-5">
         {/* <!-- Sidebar --> */}
         <div class="lg:w-2/4 xl:w-1/4 tracking-tighter xl:h-[390px] 2xl:h-[370px] bg-white rounded-lg shadow-md p-4 lg:sticky top-0 h-[370px] w-full">
           <ul class="space-y-2">
@@ -803,6 +811,7 @@ const PrinciplePoliecies = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };
