@@ -1297,6 +1297,79 @@ export const Academicdata=[
             date: " 15-May-2024",
             memory: "12",
             Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_351889.jpg'
+           },
+           {
+            id: 28,
+            title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
+            date: " 15-May-2024",
+            memory: "12",
+            Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_351889.jpg'
+           },  {
+            id: 29,
+            title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
+            date: "15-May-2024",
+            memory: "12",
+            Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_351889.jpg'
+           },  {
+            id: 30,
+            title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
+            date: "15-May-2024",
+            memory: "12",
+            Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_351889.jpg'
+           },  {
+            id: 31,
+            title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
+            date: "15-May-2024",
+            memory: "12",
+            Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_351889.jpg'
+           },  {
+            id: 32,
+            title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
+            date: " 15-May-2024",
+            memory: "12",
+            Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_351889.jpg'
+           },  {
+            id: 33,
+            title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
+            date: " 15-May-2024",
+            memory: "12",
+            Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_351889.jpg'
+           },  {
+            id: 34,
+            title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
+            date: " 15-May-2024",
+            memory: "12",
+            Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_351889.jpg'
+           },  {
+            id: 35,
+            title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
+            date: " 15-May-2024",
+            memory: "12",
+            Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_351889.jpg'
+           },  {
+            id: 36,
+            title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
+            date: " 15-May-2024",
+            memory: "12",
+            Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_351889.jpg'
+           },  {
+            id: 37,
+            title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
+            date: " 15-May-2024",
+            memory: "12",
+            Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_351889.jpg'
+           },  {
+            id: 38,
+            title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
+            date: " 15-May-2024",
+            memory: "12",
+            Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_351889.jpg'
+           },  {
+            id: 39,
+            title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
+            date: " 15-May-2024",
+            memory: "12",
+            Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_351889.jpg'
            }
    ]
    export const Curricular=[
@@ -1503,6 +1576,54 @@ export const Academicdata=[
         memory: "12",
         Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_4515302.jpeg'
        },
+       {
+        id: 26,
+        title: "Excursion to DEVARPAN",
+        date: "20-Dec-2023",
+        memory: "12",
+        Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_4515302.jpeg'
+       },
+
+       {
+        id: 27,
+        title: "Excursion to DEVARPAN",
+        date: "20-Dec-2023",
+        memory: "12",
+        Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_4515302.jpeg'
+       },
+
+       {
+        id: 28,
+        title: "Excursion to DEVARPAN",
+        date: "20-Dec-2023",
+        memory: "12",
+        Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_4515302.jpeg'
+       },
+
+       {
+        id: 29,
+        title: "Excursion to DEVARPAN",
+        date: "20-Dec-2023",
+        memory: "12",
+        Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_4515302.jpeg'
+       },
+
+       {
+        id: 30,
+        title: "Excursion to DEVARPAN",
+        date: "20-Dec-2023",
+        memory: "12",
+        Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_4515302.jpeg'
+       },
+
+       {
+        id: 31,
+        title: "Excursion to DEVARPAN",
+        date: "20-Dec-2023",
+        memory: "12",
+        Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_4515302.jpeg'
+       },
+
 
 ]
 export const Sports=[
@@ -1773,217 +1894,308 @@ export const event=[
         Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_1932188.jpg'
        },
        {
-        id: 1,
+        id: 2,
         title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
         date: "15-May-2024",
         memory: "12",
         Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_1932188.jpg'
        },
        {
-        id: 1,
+        id: 3,
         title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
         date: "15-May-2024",
         memory: "12",
         Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_1932188.jpg'
        },
        {
-        id: 1,
+        id: 4,
         title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
         date: "15-May-2024",
         memory: "12",
         Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_1932188.jpg'
        },
        {
-        id: 1,
+        id: 5,
         title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
         date: "15-May-2024",
         memory: "12",
         Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_1932188.jpg'
        },
        {
-        id: 1,
+        id: 6,
         title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
         date: "15-May-2024",
         memory: "12",
         Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_1932188.jpg'
        },
        {
-        id: 1,
+        id: 7,
         title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
         date: "15-May-2024",
         memory: "12",
         Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_1932188.jpg'
        },
        {
-        id: 1,
+        id: 8,
         title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
         date: "15-May-2024",
         memory: "12",
         Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_1932188.jpg'
        },
        {
-        id: 1,
+        id: 9,
         title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
         date: "15-May-2024",
         memory: "12",
         Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_1932188.jpg'
        },
        {
-        id: 1,
+        id: 10,
         title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
         date: "15-May-2024",
         memory: "12",
         Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_1932188.jpg'
        },
         {
-        id: 1,
+        id: 11,
         title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
         date: "15-May-2024",
         memory: "12",
         Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_1932188.jpg'
        },
        {
-        id: 1,
+        id: 12,
         title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
         date: "15-May-2024",
         memory: "12",
         Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_1932188.jpg'
        },
        {
-        id: 1,
+        id: 13,
         title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
         date: "15-May-2024",
         memory: "12",
         Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_1932188.jpg'
        },
        {
-        id: 1,
+        id: 14,
         title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
         date: "15-May-2024",
         memory: "12",
         Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_1932188.jpg'
        },
        {
-        id: 1,
+        id: 15,
         title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
         date: "15-May-2024",
         memory: "12",
         Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_1932188.jpg'
        },
        {
-        id: 1,
+        id: 16,
         title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
         date: "15-May-2024",
         memory: "12",
         Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_1932188.jpg'
        },
        {
-        id: 1,
+        id: 17,
         title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
         date: "15-May-2024",
         memory: "12",
         Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_1932188.jpg'
        },
        {
-        id: 1,
+        id: 18,
         title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
         date: "15-May-2024",
         memory: "12",
         Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_1932188.jpg'
        },
        {
-        id: 1,
+        id: 19,
         title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
         date: "15-May-2024",
         memory: "12",
         Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_1932188.jpg'
        },
        {
-        id: 1,
+        id: 20,
         title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
         date: "15-May-2024",
         memory: "12",
         Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_1932188.jpg'
        },
        {
-        id: 1,
+        id: 21,
         title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
         date: "15-May-2024",
         memory: "12",
         Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_1932188.jpg'
        },
        {
-        id: 1,
+        id: 22,
         title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
         date: "15-May-2024",
         memory: "12",
         Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_1932188.jpg'
        },
        {
-        id: 1,
+        id: 23,
         title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
         date: "15-May-2024",
         memory: "12",
         Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_1932188.jpg'
        },
        {
-        id: 1,
+        id: 24,
         title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
         date: "15-May-2024",
         memory: "12",
         Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_1932188.jpg'
        },
        {
-        id: 1,
+        id: 25,
         title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
         date: "15-May-2024",
         memory: "12",
         Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_1932188.jpg'
        },
        {
-        id: 1,
+        id: 26,
         title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
         date: "15-May-2024",
         memory: "12",
         Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_1932188.jpg'
        },
        {
-        id: 1,
+        id: 27,
         title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
         date: "15-May-2024",
         memory: "12",
         Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_1932188.jpg'
        },
        {
-        id: 1,
+        id: 28,
         title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
         date: "15-May-2024",
         memory: "12",
         Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_1932188.jpg'
        },
        {
-        id: 1,
+        id: 29,
         title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
         date: "15-May-2024",
         memory: "12",
         Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_1932188.jpg'
        },
        {
-        id: 1,
+        id: 30,
         title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
         date: "15-May-2024",
         memory: "12",
         Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_1932188.jpg'
        },
        {
-        id: 1,
+        id: 31,
         title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
         date: "15-May-2024",
         memory: "12",
         Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_1932188.jpg'
        },
        {
-        id: 1,
+        id: 32,
+        title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
+        date: "15-May-2024",
+        memory: "12",
+        Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_1932188.jpg'
+       },
+       {
+        id: 33,
+        title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
+        date: "15-May-2024",
+        memory: "12",
+        Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_1932188.jpg'
+       },
+       {
+        id: 34,
+        title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
+        date: "15-May-2024",
+        memory: "12",
+        Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_1932188.jpg'
+       },
+       {
+        id: 35,
+        title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
+        date: "15-May-2024",
+        memory: "12",
+        Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_1932188.jpg'
+       },
+       {
+        id: 36,
+        title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
+        date: "15-May-2024",
+        memory: "12",
+        Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_1932188.jpg'
+       },
+       {
+        id: 37,
+        title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
+        date: "15-May-2024",
+        memory: "12",
+        Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_1932188.jpg'
+       },
+       {
+        id: 38,
+        title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
+        date: "15-May-2024",
+        memory: "12",
+        Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_1932188.jpg'
+       },
+       {
+        id: 39,
+        title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
+        date: "15-May-2024",
+        memory: "12",
+        Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_1932188.jpg'
+       },
+       {
+        id: 40,
+        title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
+        date: "15-May-2024",
+        memory: "12",
+        Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_1932188.jpg'
+       },
+       {
+        id: 41,
+        title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
+        date: "15-May-2024",
+        memory: "12",
+        Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_1932188.jpg'
+       },
+       {
+        id: 42,
+        title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
+        date: "15-May-2024",
+        memory: "12",
+        Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_1932188.jpg'
+       },
+        {
+        id: 43,
+        title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
+        date: "15-May-2024",
+        memory: "12",
+        Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_1932188.jpg'
+       },
+       {
+        id: 44,
+        title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
+        date: "15-May-2024",
+        memory: "12",
+        Image:'https://api-ap-south-mum-1.openstack.acecloudhosting.com:8080/franciscan/SchImg/LSSKSP/PhotoAlbum/Thumb/Photo_1932188.jpg'
+       },
+       {
+        id: 45,
         title: "Safety Week Day 1 - Cyber Security Awareness at Little Scholars",
         date: "15-May-2024",
         memory: "12",

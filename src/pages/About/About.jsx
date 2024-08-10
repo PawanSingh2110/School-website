@@ -9,7 +9,7 @@ import PhotoCard from '../../components/PhotoCard';
 const About = () => {
   const [value, setValue] = useState("All");
   const [selectedAll, setSelectedAll] = useState(null);
-  const [visibleData, setVisibleData] = useState(10);  
+  const [visibleData, setVisibleData] = useState(16);  
   const selectedAllRef = useRef(null);
 
   useEffect(() => {
