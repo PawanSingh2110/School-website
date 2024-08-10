@@ -19,8 +19,6 @@ import Prodecure from "./pages/Addmission-Prodecure/Prodecure";
 import Feesstructure from "./pages/Fees-Structure/Feesstructure";
 import Registration from "./pages/Registration/Registration";
 
-import MediaGallery from './pages/About/MediaGallery';
-import VideoGallery from './pages/About/VideoGallery';
 
 function App() {
   return (

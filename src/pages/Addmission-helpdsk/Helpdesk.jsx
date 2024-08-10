@@ -1,5 +1,5 @@
 import React from "react";
-import "Helpdesk.css";
+import "./Helpdesk.css";
 
 const Helpdesk = () => {
   return (
