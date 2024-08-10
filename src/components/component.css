@@ -575,6 +575,212 @@ label{
   }
 }
 
+.photo-gallery {
+  padding: 50px;
+  background-color: #f7f7f7;
+  }
+  
+  .photo-gallery h2 {
+  font-size: 28px;
+  color: #333;
+  text-align: left;
+  margin-bottom: 40px;
+  font-weight: bold;
+  }
+  
+  .underline {
+  border-bottom: 3px solid #333;
+  text-decoration-line:none !important;
+  }
+  
+  .photo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 30px;
+  justify-content: center;
+  align-items: start;
+  }
+  
+  .photo-card {
+  background-color: #f7f7f7;
+  box-shadow: none; 
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, margin 0.3s ease;
+  position: relative;
+  height:fit-content; 
+  margin: 0; 
+  width: 90%;
+  padding:20px;
+  position: relative;
+  z-index: 1;
+  font-size: 14px;
+  text-align: center;
+  }
+  
+  .photo-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  width: calc(90% + 10px);
+  z-index: 10;
+  }
+  
+  .photo-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-bottom: 2px solid #e0e0e0;
+  margin-bottom: 10px;
+  }
+  
+  .photo-card h3 {
+  font-size: 18px; 
+  color: #333;
+  padding: 10px 15px 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: normal;
+  margin:0;
+  }
+  
+  .photo-card p {
+  font-size: 16px;
+  color: #777;
+  padding: 0 15px 5px;
+  margin: 0; 
+  }
+  
+  
+  .view-media-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  background-color: #f7f7f7; 
+  color: #333; 
+  font-size: 16px;
+  text-align: center;
+  padding: 10px;
+  margin: 0 15%;
+  border-radius: 5px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Optional: add transition for background color */
+  }
+  
+  .arrow {
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: rgb(255, 20, 78);
+  border-radius: 50%;
+  margin: 0 5px;
+  height: 15px;
+  width: 15px; 
+  justify-content: center; 
+  transition: transform 0.3s; 
+  }
+  
+  .arrow:hover {
+  transform: rotate(360deg); 
+  }
+  
+  .photo-card:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+  margin: 10px; 
+  }
+  
+  .photo-card:hover img {
+  transform: scale(1.05); 
+  }
+  
+  .photo-card img {
+  transition: transform 0.3s ease;
+  }
+  
+  
+  /* Styles for the selected media card */
+  .selected-photo {
+  width: 100%;
+  padding: 20px;
+  background-color:#f7f7f7;
+  margin-bottom: 80px;
+  }
+  
+  .selected-photo h3 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  }
+  
+  .selected-photo p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  }
+  
+  .selected-photo img {
+  width: 200px;
+  height: auto;
+  margin-top: 20px;
+  }
+  
+  .photo-grid {
+  margin-top: 20px;
+  }
+  
+  .load-more {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color:#f7f7f7; 
+  color: rgb(0, 0, 0);
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  }
+  
+  .load-more:hover {
+  background-color: #022549;
+  color: white;
+  }
+  
+  @media screen and (max-width: 768px) {
+  .photo-grid {
+    grid-template-columns: 1fr; 
+    gap: 20px; 
+  }
+  
+  .photo-card {
+    width: 80%;
+    padding: 20px 40px;
+  }
+  
+  .photo-card:hover {
+    width: 72%;
+  }
+  
+  .photo-card img {
+    height: auto; 
+  }
+  
+  .photo-gallery {
+    padding: 20px;
+  }
+  
+  .photo-gallery h2 {
+    font-size: 24px; 
+  }
+  .selected-photo {
+    padding: 0;
+  }
+  }
+  
+  
+
+
 
 /* video gallery styles */
 .video-gallery {
