@@ -1,8 +1,10 @@
 import React from 'react'
 import Logo from '../images/school_logo.webp';
-import Logo1 from '../images/logo1.webp';
-import Logo2 from '../images/logo2.webp';
-import Logo3 from '../images/logo3.webp';
+import boy1 from '../images/download.jpg';
+import image2 from '../images/image2.jpg';
+import image3 from '../images/image3.jpg';
+import image4 from '../images/image4.jpg';
+import image5 from '../images/image5.jpg';
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa6";
@@ -40,15 +42,18 @@ const Footer = () => {
     </div>
 
     <div className="w-full sm:w-1/2 lg:w-1/4 p-2">
-      <div className="mb-8 sm:mb-12 mt-6 sm:mt-8 lg:mt-14">
+      <div className="mb-8 h-50 sm:mb-12 mt-6 sm:mt-8 lg:mt-14 overflow-y-scroll no-scrollbar">
         <h4 className="text-lg sm:text-xl mb-2 sm:mb-4 pb-2 border-b border-gray-700 text-center sm:text-left text-white">
-          Latest Blogs
+          Birthdays
         </h4>
-        <div className="space-y-4">
+        <div className="space-y-4 text-center">
           {[
-            { img: Logo1, title: 'Top 10 Study Tips for High School Students', date: 'July 26th, 2024' },
-            { img: Logo2, title: 'Fun and Engaging Classroom Activities', date: 'July 18th, 2024' },
-            { img: Logo3, title: 'What is Mental Health for Students?', date: 'July 15th, 2024' },
+            { img: boy1, title: 'Vijay Sharma', date: 'July 26th, 1998' },
+            { img: image4, title: 'Varun Gupta', date: 'August 18th, 1999' },
+            { img: image2, title: 'Neha kapoor', date: 'July 15th, 2000' },
+            { img: image3, title: 'Prachi Desai', date: 'May 18th, 1999' },
+            { img: image5, title: 'kabir khan', date: 'April 15th, 1998' },
+            
           ].map((blog, index) => (
             <article key={index} className="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-4">
               <a href="#">
