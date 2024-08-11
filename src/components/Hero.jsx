@@ -96,7 +96,7 @@ function Hero() {
                 <li><Link to="#">Registration</Link></li>
                 <li><Link to="#">Fee Structure</Link></li>
                 <li><Link to="#">Scholarship</Link></li>
-                <li><Link to="#">School Timings</Link></li>
+                <li><Link to="/School-timing">School Timings</Link></li>
                 <li><Link to="/FAQ">FAQ's</Link></li>
               </ul>
             </li>
