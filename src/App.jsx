@@ -12,7 +12,7 @@ import SchoolManagement from "./pages/school-management/SchoolManagement";
 import PrinciplePoliecies from "./pages/priciple-polices/PrinciplePoliecies";
 import Helpdesk from "./pages/Addmission-helpdsk/Helpdesk";
 import Prodecure from "./pages/Addmission-Prodecure/Prodecure";
-import Feesstructure from "./pages/Fees-Structure/Feesstructure";
+
 import Registration from "./pages/Registration/Registration";
 import FAQ from "./pages/FAQ/faq";
 // import MediaGallery from './pages/About/MediaGallery';
@@ -37,7 +37,7 @@ function App() {
           {/* //Addmissions */}
           <Route path="/Addmission-helpdesk" element={<Helpdesk />} />
           <Route path="/Addmission-Prodecure" element={<Prodecure />} />
-          <Route path="/Fees-structure" element={<Feesstructure />} />
+          
           <Route path="/Registration" element={<Registration />} />
           <Route path = "/FAQ" element={<FAQ />}/>
           <Route path="/School-timing" element={<Schooltime />} />
