@@ -188,19 +188,19 @@ function Hero() {
               <Link to="/Founder-desk">Founder's Desk</Link>
               </li>
               <li>
-                <a href="#">Principal's Desk</a>
+                <a href="/Principle-desk">Principal's Desk</a>
               </li>
               <li>
-                <a href="#">School Management</a>
+                <a href="/School-management">School Management</a>
               </li>
               <li>
-                <a href="#">Managing Committee</a>
+                <a href="/Management-Committie">Managing Committee</a>
               </li>
               <li>
-                <a href="#">Principal & Policies</a>
+                <a href="/Policy">Principal & Policies</a>
               </li>
               <li>
-                <a href="#">Infrastructure</a>
+                <a href="/Infrastructure">Infrastructure</a>
               </li>
             </ul>
           </li>
@@ -210,13 +210,11 @@ function Hero() {
               Admission <i className="fa-solid fa-chevron-down"></i>
             </label>
             <ul className="accordion-content">
-              <li><Link to="#">Admission Helpdesk / School Visit</Link></li>
-              <li><Link to="#">Admission Procedure</Link></li>
-              <li><Link to="#">Registration</Link></li>
-              <li><Link to="#">Fee Structure</Link></li>
-              <li><Link to="#">Scholarship</Link></li>
-              <li><Link to="#">School Timings</Link></li>
-              <li><Link to="#">FAQ's</Link></li>
+            <li><Link to="/Addmission-helpdesk">Admission Helpdesk / School Visit</Link></li>
+                <li><Link to="/Addmission-Prodecure">Admission Procedure</Link></li>
+                <li><Link to="/Registration">Registration</Link></li>
+                <li><Link to="/School-timing">School Timings</Link></li>
+                <li><Link to="/FAQ">FAQ's</Link></li>
             </ul>
           </li>
           <li className="accordion-item">
