@@ -2,18 +2,28 @@ import React from "react";
 import "./Helpdesk.css";
 import { Link } from "react-router-dom";
 import { Breadcrumb } from "react-bootstrap";
+import { FaArrowRight } from "react-icons/fa";
 
 
 const Helpdesk = () => {
   return (
     <div>
+       <div className=" title w-full h-48 py-10  text-white bg-orange-500">
+        <h1 className="lg:text-5xl text-3xl font-medium text-center ">Addmissons Enquiry</h1>
+        <h1 className="text-center font-bold mt-5 flex items-center gap-1 justify-center">Home <FaArrowRight/> About Us <FaArrowRight/> <span className="font-medium ">Addmissons Enquiry</span> </h1>
+        
+      </div>
       <div className="Addmision-section">
         <div className="Addmission-bg">
-          <h1>Addmissons Enquiry</h1>
+          <div className="m-5">
+          <h1 className=" text-3xl font-medium ">Addmissons Enquiry </h1>
+          <hr className="border-[3px] border-black rounded-md w-[20%]  lg:w-[15%] xl:w-[6%] mt-3" />
+          </div>
+
           <nav className="breadcrumb">
             <Link to="/">Home</Link> &gt;{" "}
             <Link to="">Addmissions</Link> &gt;{" "}
-            <Link to="">Addmissions Enquiry</Link> {Breadcrumb}
+            <Link to="">Addmissions Enquiry</Link> 
           </nav>
         </div>
       </div>
