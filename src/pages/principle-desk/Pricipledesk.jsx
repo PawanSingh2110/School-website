@@ -11,7 +11,7 @@ const Pricipledesk = () => {
         
       </div>
       <div className="grid grid-cols-1 xl:grid-cols-3">
-      <div className="text-start col-span-2 p-4 lg:p-20 order-last xl:order-first">
+      <div className="text-start col-span-2 p-4 lg:p-20 order-first xl:order-last">
         <h1 className="text-2xl text-gray-600 font-semibold">Welcome To</h1>
         <h1 className="text-4xl font-semibold text-red-500">Little Scholars</h1>
         <p className=" tracking-wide text-black font-medium mt-4">
@@ -49,7 +49,7 @@ const Pricipledesk = () => {
           day in every way.
         </p>
       </div>
-      <div className="  col-span-1 order-first xl:order-last p-5 lg:p-10 ">
+      <div className="  col-span-1 order-last xl:order-first p-5 lg:p-10 ">
         <img
           src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHBvcnRyYWl0fGVufDB8fDB8fHww"
           alt="" className="rounded-xl lg:w-[350px] lg:ml-40 xl:ml-0 xl:float-left xl:mt-20 2xl:mt-10 xl:w-[450px]"

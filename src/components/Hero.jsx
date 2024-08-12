@@ -69,16 +69,20 @@ function Hero() {
                   <Link to="/Founder-desk">Founder's Desk</Link>
                 </li>
                 <li>
-                  <a href="#">Principal's Desk</a>
+                  <Link to="/Principle-desk" ><a href="#">Principal's Desk</a></Link>
+                  
                 </li>
                 <li>
-                  <a href="#">School Management</a>
+                  <Link to="/School-management" ><a href="#">School Management</a></Link>
+                
                 </li>
                 <li>
-                  <a href="#">Managing Committee</a>
+                  <Link to="/Management-Committie" > <a href="#">Managing Committee</a></Link>
+                 
                 </li>
                 <li>
-                  <a href="#">Principal & Policies</a>
+                  <Link to="/Policy" ><a href="#">Principal & Policies</a></Link>
+                  
                 </li>
                 <li>
                 <Link to="/Infrastructure">Infrastructure</Link>
@@ -91,12 +95,11 @@ function Hero() {
                 <i className="fa-solid fa-chevron-down p-1"></i>
               </div>
               <ul className="submenu">
-                <li><Link to="#">Admission Helpdesk / School Visit</Link></li>
-                <li><Link to="#">Admission Procedure</Link></li>
-                <li><Link to="#">Registration</Link></li>
-                <li><Link to="#">Fee Structure</Link></li>
-                <li><Link to="#">Scholarship</Link></li>
-                <li><Link to="#">School Timings</Link></li>
+                <li><Link to="/Addmission-helpdesk">Admission Helpdesk / School Visit</Link></li>
+                <li><Link to="/Addmission-Prodecure">Admission Procedure</Link></li>
+                <li><Link to="/Registration">Registration</Link></li>
+                <li><Link to="/Fees-structure">Fee Structure</Link></li>
+              
                 <li><Link to="/FAQ">FAQ's</Link></li>
               </ul>
             </li>
