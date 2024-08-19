@@ -18,6 +18,8 @@ import FAQ from "./pages/FAQ/faq";
 // import MediaGallery from './pages/About/MediaGallery';
 // import VideoGallery from './pages/About/VideoGallery';
 import Schooltime from "./pages/School-timing/Schooltime";
+import Achievements from "./pages/Achievements/Achievements";
+import EventClander from "./pages/Event-Calender/EventClander";
 
 function App() {
   return (
@@ -42,8 +44,8 @@ function App() {
           <Route path = "/FAQ" element={<FAQ />}/>
           <Route path="/School-timing" element={<Schooltime />} />
           {/* About US */}
-          {/* <Route path="/media-gallery" element={<MediaGallery />} />
-          <Route path="/video-gallery" element={<VideoGallery />} /> */}
+           <Route path="/EventClander" element={<EventClander />} />
+          <Route path="/Achievements" element={<Achievements />} /> 
         </Routes>
         
         <Footer/>

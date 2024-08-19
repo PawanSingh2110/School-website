@@ -125,8 +125,8 @@ function Hero() {
                     <li><Link to="#">Parent Form</Link></li>
                   </ul>
                 </li>
-                <li><Link to="#">Achievements</Link></li>
-                <li><Link to="#">Events Calendar</Link></li>
+                <li><Link to="/Achievements">Achievements</Link></li>
+                <li><Link to="/EventClander">Events Calendar</Link></li>
                 <li><Link to="#">Toppers</Link></li>
                 <li><Link to="#">Cabinet</Link></li>
               </ul>
