@@ -111,7 +111,7 @@
   transform: scaleY(0);
   visibility: hidden;
   opacity: 0;
-  color: gray;
+  color: rgb(16, 15, 15);
   font-weight: 500;
   background: white;
   width: 200px;
@@ -157,8 +157,7 @@ transition: all 0.2s ease-in;
 
 .accordion {
   list-style-type: none;
-  padding: 0;
-  background-color: #333333;
+  background-color: #333333 !important;
 }
 
 
@@ -168,11 +167,13 @@ transition: all 0.2s ease-in;
 
 .accordion-header {
   color: white;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid lightgray;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: #333333;
+
 }
 
 label{
@@ -182,15 +183,18 @@ label{
 .accordion-content {
   display: none;
   border-top: none;
+  background-color: #333333;
 }
 
 .accordion-content li {
   padding: 10px 25px 10px 40px;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid lightgray;
+  background-color: #333333;
+
 }
 
 .accordion-content a {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
@@ -212,6 +216,7 @@ label{
 
 .accordion-item {
   margin-top: 0.5rem;
+  color: black;
 }
 
 .hamburger{
@@ -312,6 +317,7 @@ label{
 @media(max-width:680px){
   .one h1,.two h1,.three h1{
     font-size: 4rem;
+    margin-bottom: 10px;
   }
   .one span,.two span,.three span{
     font-size: 1rem;

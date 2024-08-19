@@ -9,8 +9,8 @@ function Hero() {
 
   return (
     <>
-      <div className="head flex justify-between text-semibold text-white py-4 pl-20 pr-10 max-xl:flex-col items-center gap-5 max-sm:hidden">
-        <div className="flex gap-5 max-lg:flex-wrap justify-center">
+      <div className="head flex justify-between text-semibold text-white py-4 pl-20 pr-5 max-xl:flex-col items-center gap-5 max-sm:hidden">
+        <div className="flex gap-5 max-lg:flex-wrap  justify-center">
           <div className="flex justify-center items-center gap-2 cursor-pointer">
             <i className="fa-solid fa-phone"></i>
             <span className="">Ph: +91 9105666371</span>
@@ -69,16 +69,20 @@ function Hero() {
                   <Link to="/Founder-desk">Founder's Desk</Link>
                 </li>
                 <li>
-                  <a href="#">Principal's Desk</a>
+                  <Link to="/Principle-desk" ><a href="#">Principal's Desk</a></Link>
+                  
                 </li>
                 <li>
-                  <a href="#">School Management</a>
+                  <Link to="/School-management" ><a href="#">School Management</a></Link>
+                
                 </li>
                 <li>
-                  <a href="#">Managing Committee</a>
+                  <Link to="/Management-Committie" > <a href="#">Managing Committee</a></Link>
+                 
                 </li>
                 <li>
-                  <a href="#">Principal & Policies</a>
+                  <Link to="/Policy" ><a href="#">Principal & Policies</a></Link>
+                  
                 </li>
                 <li>
                 <Link to="/Infrastructure">Infrastructure</Link>
@@ -91,11 +95,17 @@ function Hero() {
                 <i className="fa-solid fa-chevron-down p-1"></i>
               </div>
               <ul className="submenu">
+<<<<<<< HEAD
                 <li><Link to="#">Admission Helpdesk / School Visit</Link></li>
                 <li><Link to="#">Admission Procedure</Link></li>
                 <li><Link to="#">Registration</Link></li>
                 <li><Link to="/Fees-Structure">Fee Structure</Link></li>
                 <li><Link to="#">Scholarship</Link></li>
+=======
+                <li><Link to="/Addmission-helpdesk">Admission Helpdesk / School Visit</Link></li>
+                <li><Link to="/Addmission-Prodecure">Admission Procedure</Link></li>
+                <li><Link to="/Registration">Registration</Link></li>
+>>>>>>> 9e958c2be7f345f7e34c80287c1b6f8525e4431b
                 <li><Link to="/School-timing">School Timings</Link></li>
                 <li><Link to="/FAQ">FAQ's</Link></li>
               </ul>
@@ -123,8 +133,8 @@ function Hero() {
                     <li><Link to="#">Parent Form</Link></li>
                   </ul>
                 </li>
-                <li><Link to="#">Achievements</Link></li>
-                <li><Link to="#">Events Calendar</Link></li>
+                <li><Link to="/Achievements">Achievements</Link></li>
+                <li><Link to="/EventClander">Events Calendar</Link></li>
                 <li><Link to="#">Toppers</Link></li>
                 <li><Link to="/Cabinet">Cabinet</Link></li>
               </ul>
@@ -163,6 +173,8 @@ function Hero() {
             </li>
           </ul>
         </div>
+
+        
         <div 
         className="xl:hidden"
         onClick={() => setIsOpen(!isOpen)}
@@ -171,7 +183,7 @@ function Hero() {
         </div>
       </nav>
 
-      <div className={`hamburger h-[100%] ${isOpen ? "block" : "hidden"}`}>
+      <div className={`hamburger  ${isOpen ? "block" : "hidden"}`}>
         <div onClick={() => setIsOpen(!isOpen)}>
           <i className="fa-solid fa-xmark text-3xl text-white cursor-pointer p-2"></i>
         </div>
@@ -186,19 +198,19 @@ function Hero() {
               <Link to="/Founder-desk">Founder's Desk</Link>
               </li>
               <li>
-                <a href="#">Principal's Desk</a>
+                <a href="/Principle-desk">Principal's Desk</a>
               </li>
               <li>
-                <a href="#">School Management</a>
+                <a href="/School-management">School Management</a>
               </li>
               <li>
-                <a href="#">Managing Committee</a>
+                <a href="/Management-Committie">Managing Committee</a>
               </li>
               <li>
-                <a href="#">Principal & Policies</a>
+                <a href="/Policy">Principal & Policies</a>
               </li>
               <li>
-                <a href="#">Infrastructure</a>
+                <a href="/Infrastructure">Infrastructure</a>
               </li>
             </ul>
           </li>
@@ -208,13 +220,11 @@ function Hero() {
               Admission <i className="fa-solid fa-chevron-down"></i>
             </label>
             <ul className="accordion-content">
-              <li><Link to="#">Admission Helpdesk / School Visit</Link></li>
-              <li><Link to="#">Admission Procedure</Link></li>
-              <li><Link to="#">Registration</Link></li>
-              <li><Link to="#">Fee Structure</Link></li>
-              <li><Link to="#">Scholarship</Link></li>
-              <li><Link to="#">School Timings</Link></li>
-              <li><Link to="#">FAQ's</Link></li>
+            <li><Link to="/Addmission-helpdesk">Admission Helpdesk / School Visit</Link></li>
+                <li><Link to="/Addmission-Prodecure">Admission Procedure</Link></li>
+                <li><Link to="/Registration">Registration</Link></li>
+                <li><Link to="/School-timing">School Timings</Link></li>
+                <li><Link to="/FAQ">FAQ's</Link></li>
             </ul>
           </li>
           <li className="accordion-item">
