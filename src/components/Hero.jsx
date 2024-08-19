@@ -94,7 +94,7 @@ function Hero() {
                 <li><Link to="#">Admission Helpdesk / School Visit</Link></li>
                 <li><Link to="#">Admission Procedure</Link></li>
                 <li><Link to="#">Registration</Link></li>
-                <li><Link to="#">Fee Structure</Link></li>
+                <li><Link to="/Fees-Structure">Fee Structure</Link></li>
                 <li><Link to="#">Scholarship</Link></li>
                 <li><Link to="/School-timing">School Timings</Link></li>
                 <li><Link to="/FAQ">FAQ's</Link></li>
@@ -126,7 +126,7 @@ function Hero() {
                 <li><Link to="#">Achievements</Link></li>
                 <li><Link to="#">Events Calendar</Link></li>
                 <li><Link to="#">Toppers</Link></li>
-                <li><Link to="#">Cabinet</Link></li>
+                <li><Link to="/Cabinet">Cabinet</Link></li>
               </ul>
             </li>
             <li>

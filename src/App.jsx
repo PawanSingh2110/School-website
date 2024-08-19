@@ -18,6 +18,7 @@ import FAQ from "./pages/FAQ/faq";
 // import MediaGallery from './pages/About/MediaGallery';
 // import VideoGallery from './pages/About/VideoGallery';
 import Schooltime from "./pages/School-timing/Schooltime";
+import Cabinet from "./pages/Cabinet/cabinet";
 
 function App() {
   return (
@@ -26,7 +27,7 @@ function App() {
         <Hero/>
         <Routes>
           <Route path="/" element={<Home />} />
-          
+        
           <Route path="/About" element={<About />} />
           <Route path="/Founder-desk" element={<Founderdesk/>} />
           <Route path="/Principle-desk" element={<Pricipledesk />} />
@@ -44,6 +45,8 @@ function App() {
           {/* About US */}
           {/* <Route path="/media-gallery" element={<MediaGallery />} />
           <Route path="/video-gallery" element={<VideoGallery />} /> */}
+
+          <Route path = "/Cabinet" element ={<Cabinet/>}/>
         </Routes>
         
         <Footer/>
