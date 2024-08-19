@@ -9,8 +9,8 @@ function Hero() {
 
   return (
     <>
-      <div className="head flex justify-between text-semibold text-white py-4 pl-20 pr-10 max-xl:flex-col items-center gap-5 max-sm:hidden">
-        <div className="flex gap-5 max-lg:flex-wrap justify-center">
+      <div className="head flex justify-between text-semibold text-white py-4 pl-20 pr-5 max-xl:flex-col items-center gap-5 max-sm:hidden">
+        <div className="flex gap-5 max-lg:flex-wrap  justify-center">
           <div className="flex justify-center items-center gap-2 cursor-pointer">
             <i className="fa-solid fa-phone"></i>
             <span className="">Ph: +91 9105666371</span>
@@ -165,6 +165,8 @@ function Hero() {
             </li>
           </ul>
         </div>
+
+        
         <div 
         className="xl:hidden"
         onClick={() => setIsOpen(!isOpen)}
@@ -173,7 +175,7 @@ function Hero() {
         </div>
       </nav>
 
-      <div className={`hamburger h-[100%] ${isOpen ? "block" : "hidden"}`}>
+      <div className={`hamburger  ${isOpen ? "block" : "hidden"}`}>
         <div onClick={() => setIsOpen(!isOpen)}>
           <i className="fa-solid fa-xmark text-3xl text-white cursor-pointer p-2"></i>
         </div>
