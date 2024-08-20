@@ -12,56 +12,37 @@ import SchoolManagement from "./pages/school-management/SchoolManagement";
 import PrinciplePoliecies from "./pages/priciple-polices/PrinciplePoliecies";
 import Helpdesk from "./pages/Addmission-helpdsk/Helpdesk";
 import Prodecure from "./pages/Addmission-Prodecure/Prodecure";
-
 import Registration from "./pages/Registration/Registration";
 import FAQ from "./pages/FAQ/faq";
-// import MediaGallery from './pages/About/MediaGallery';
-// import VideoGallery from './pages/About/VideoGallery';
 import Schooltime from "./pages/School-timing/Schooltime";
-
-import StudentForm from './pages/Council-Guidlines/Student'
-import ParentForm from './pages/Council-Guidlines/Parent'
+import StudentForm from './pages/Council-Guidlines/Student';
+import ParentForm from './pages/Council-Guidlines/Parent';
 
 function App() {
   return (
     <>
       <div>
-        <Hero/>
+        <Hero />
         <Routes>
           <Route path="/" element={<Home />} />
-          
           <Route path="/About" element={<About />} />
-          <Route path="/Founder-desk" element={<Founderdesk/>} />
+          <Route path="/Founder-desk" element={<Founderdesk />} />
           <Route path="/Principle-desk" element={<Pricipledesk />} />
           <Route path="/School-Management" element={<SchoolManagement />} />
           <Route path="/Policy" element={<PrinciplePoliecies />} />
           <Route path="/Infrastructure" element={<Infrastructure />} />
           <Route path="/Management-Committie" element={<Managementcommittie />} />
-          {/* //Addmissions */}
           <Route path="/Addmission-helpdesk" element={<Helpdesk />} />
           <Route path="/Addmission-Prodecure" element={<Prodecure />} />
-          
           <Route path="/Registration" element={<Registration />} />
-          <Route path = "/FAQ" element={<FAQ />}/>
+          <Route path="/FAQ" element={<FAQ />} />
           <Route path="/School-timing" element={<Schooltime />} />
-          {/* About US */}
-<<<<<<< HEAD
-          {/* <Route path="/media-gallery" element={<MediaGallery />} />
-          <Route path="/video-gallery" element={<VideoGallery />} /> */}
-=======
-          <Route path="/media-gallery" element={<MediaGallery />} />
-          <Route path="/video-gallery" element={<VideoGallery />} />
-
-          <Route path="/school-form" element={<StudentForm/>} />
-          <Route path="/parent-form" element={<ParentForm/>} />
->>>>>>> niraj
+          <Route path="/school-form" element={<StudentForm />} />
+          <Route path="/parent-form" element={<ParentForm />} />
         </Routes>
-        
-        <Footer/>
-
+        <Footer />
       </div>
     </>
-   
   );
 }
 
