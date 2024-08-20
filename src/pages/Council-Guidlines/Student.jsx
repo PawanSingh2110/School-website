@@ -136,7 +136,7 @@ const Student = () => {
           <h1 className="mb-10 text-2xl font-medium">
             Little Scholars School Student Council Form
           </h1>
-          <form>
+          <section>
             <div className="flex flex-col gap-10 md:flex-row">
               <input
                 type="text"
@@ -225,7 +225,7 @@ const Student = () => {
 
             <button className="bg-[#202C45] text-white px-10 py-4 rounded-full">Submit Now</button>
 
-          </form>
+          </section>
         </div>
       </div>
     </>

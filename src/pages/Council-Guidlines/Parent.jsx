@@ -138,7 +138,7 @@ const Parent = () => {
           <h1 className="mb-10 text-2xl font-medium">
             Little Scholars School Student Council Form
           </h1>
-          <form>
+          <section>
             <div className="flex flex-col gap-10 md:flex-row">
               <input
                 type="text"
@@ -235,7 +235,7 @@ const Parent = () => {
             </div>
 
             <button className="bg-[#202C45] text-white px-10 py-4 rounded-full mt-10">Submit Now</button>
-          </form>
+          </section>
         </div>
       </div>
     </>
