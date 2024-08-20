@@ -19,6 +19,9 @@ import FAQ from "./pages/FAQ/faq";
 // import VideoGallery from './pages/About/VideoGallery';
 import Schooltime from "./pages/School-timing/Schooltime";
 
+import StudentForm from './pages/Council-Guidlines/Student'
+import ParentForm from './pages/Council-Guidlines/Parent'
+
 function App() {
   return (
     <>
@@ -42,8 +45,16 @@ function App() {
           <Route path = "/FAQ" element={<FAQ />}/>
           <Route path="/School-timing" element={<Schooltime />} />
           {/* About US */}
+<<<<<<< HEAD
           {/* <Route path="/media-gallery" element={<MediaGallery />} />
           <Route path="/video-gallery" element={<VideoGallery />} /> */}
+=======
+          <Route path="/media-gallery" element={<MediaGallery />} />
+          <Route path="/video-gallery" element={<VideoGallery />} />
+
+          <Route path="/school-form" element={<StudentForm/>} />
+          <Route path="/parent-form" element={<ParentForm/>} />
+>>>>>>> niraj
         </Routes>
         
         <Footer/>
