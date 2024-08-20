@@ -22,6 +22,9 @@ import Registration from "./pages/Registration/Registration";
 import MediaGallery from './pages/About/MediaGallery';
 import VideoGallery from './pages/About/VideoGallery';
 
+import StudentForm from './pages/Council-Guidlines/Student'
+import ParentForm from './pages/Council-Guidlines/Parent'
+
 function App() {
   return (
     <>
@@ -45,6 +48,9 @@ function App() {
           {/* About US */}
           <Route path="/media-gallery" element={<MediaGallery />} />
           <Route path="/video-gallery" element={<VideoGallery />} />
+
+          <Route path="/school-form" element={<StudentForm/>} />
+          <Route path="/parent-form" element={<ParentForm/>} />
         </Routes>
         
         <Footer/>

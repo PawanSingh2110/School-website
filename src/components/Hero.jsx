@@ -119,8 +119,8 @@ function Hero() {
                     <i className="fa-solid fa-chevron-right p-1"></i>
                   </div>
                   <ul className="submenu sub-menu-right">
-                    <li><Link to="#">Student Form</Link></li>
-                    <li><Link to="#">Parent Form</Link></li>
+                    <li><Link to="/school-form">Student Form</Link></li>
+                    <li><Link to="/parent-form">Parent Form</Link></li>
                   </ul>
                 </li>
                 <li><Link to="#">Achievements</Link></li>
@@ -236,8 +236,8 @@ function Hero() {
                   Council Guidelines <i className="fa-solid fa-chevron-right"></i>
                 </label>
                 <ul className="accordion-content">
-                  <li><Link to="#">Student Form</Link></li>
-                  <li><Link to="#">Parent Form</Link></li>
+                  <li><Link to="/school-form">Student Form</Link></li>
+                  <li><Link to="/parent-form">Parent Form</Link></li>
                 </ul>
               </li>
               <li><Link to="#">Achievements</Link></li>
