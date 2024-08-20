@@ -95,17 +95,16 @@ function Hero() {
                 <i className="fa-solid fa-chevron-down p-1"></i>
               </div>
               <ul className="submenu">
-<<<<<<< HEAD
+
                 <li><Link to="#">Admission Helpdesk / School Visit</Link></li>
                 <li><Link to="#">Admission Procedure</Link></li>
                 <li><Link to="#">Registration</Link></li>
                 <li><Link to="/Fees-Structure">Fee Structure</Link></li>
                 <li><Link to="#">Scholarship</Link></li>
-=======
                 <li><Link to="/Addmission-helpdesk">Admission Helpdesk / School Visit</Link></li>
                 <li><Link to="/Addmission-Prodecure">Admission Procedure</Link></li>
                 <li><Link to="/Registration">Registration</Link></li>
->>>>>>> 9e958c2be7f345f7e34c80287c1b6f8525e4431b
+
                 <li><Link to="/School-timing">School Timings</Link></li>
                 <li><Link to="/FAQ">FAQ's</Link></li>
               </ul>
@@ -117,7 +116,7 @@ function Hero() {
               </div>
               <ul className="submenu">
                 <li><Link to="#">Academics</Link></li>
-                <li><Link to="#">Sports</Link></li>
+                <li><Link to="Sports">Sports</Link></li>
                 <li><Link to="#">Swimming Pool Form</Link></li>
                 <li><Link to="#">Blood Donation Form</Link></li>
                 <li><Link to="#">Co-Curricular</Link></li>

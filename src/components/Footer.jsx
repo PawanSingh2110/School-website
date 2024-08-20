@@ -51,7 +51,7 @@ const Footer = () => {
             { img: boy1, title: 'Vijay Sharma', date: 'July 26th, 1998' },
             { img: image4, title: 'Varun Gupta', date: 'August 18th, 1999' },
             { img: image2, title: 'Neha kapoor', date: 'July 15th, 2000' },
-            { img: image3, title: 'Prachi Desai', date: 'May 18th, 1999' },
+            { img: image3, title: 'Prachi Desai', date: 'May 18th , 1999' },
             { img: image5, title: 'kabir khan', date: 'April 15th, 1998' },
             
           ].map((blog, index) => (
