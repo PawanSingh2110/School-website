@@ -2204,3 +2204,50 @@ export const event=[
        
 
 ]
+
+
+export const Sportdata=[
+  {
+    id:1,
+    name:"Football"
+  },
+  {
+    id:2,
+    name:"Cricket"
+  },
+  {
+    id:3,
+    name:"Volleyball"
+  },
+  {
+    id:4,
+    name:"Basketball"
+  },
+  {
+    id:5,
+    name:"Badminton"
+  },
+  {
+    id:6,
+    name:"Kho-Kho"
+  },
+  {
+    id:7,
+    name:"Swimming"
+  },
+  {
+    id:8,
+    name:"Chess"
+  },
+]
+
+
+/*
+
+ <div className="flex ml-20 w-[25px]">
+        <div className='w-[270px]'>
+        <a href="#section-one" className="block w-full h-10 border border-gray-500 pl-4 pt-2 border-t-4">Sports</a>
+        <a href="#section-two" class="block w-full h-10 border border-gray-500 pl-4 pt-2 border-b-4">Department</a>
+        </div>
+
+*/
