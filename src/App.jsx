@@ -15,6 +15,7 @@ import Prodecure from "./pages/Addmission-Prodecure/Prodecure";
 import Feesstructure from "./pages/Fees-Structure/Feesstructure";
 import Registration from "./pages/Registration/Registration";
 import FAQ from "./pages/FAQ/faq";
+import  Sports  from "./pages/Stuednt-life/Sports";
 // import MediaGallery from './pages/About/MediaGallery';
 // import VideoGallery from './pages/About/VideoGallery';
 
@@ -43,6 +44,8 @@ function App() {
           {/* About US */}
           {/* <Route path="/media-gallery" element={<MediaGallery />} />
           <Route path="/video-gallery" element={<VideoGallery />} /> */}
+          {/*Student-life */}
+          <Route path="/Sports" element={<Sports/>} />
         </Routes>
         
         <Footer/>

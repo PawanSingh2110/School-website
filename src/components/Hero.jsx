@@ -107,7 +107,7 @@ function Hero() {
               </div>
               <ul className="submenu">
                 <li><Link to="#">Academics</Link></li>
-                <li><Link to="#">Sports</Link></li>
+                <li><Link to="Sports">Sports</Link></li>
                 <li><Link to="#">Swimming Pool Form</Link></li>
                 <li><Link to="#">Blood Donation Form</Link></li>
                 <li><Link to="#">Co-Curricular</Link></li>
