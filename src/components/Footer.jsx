@@ -10,7 +10,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa6";
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-gray-400">
+    <footer id="footer" className="bg-gray-900 text-gray-400">
   <div className="container mx-auto px-4 py-6 sm:py-10 flex flex-wrap">
 
     <div className="w-full sm:w-[327.53px] h-[247px] lg:w-1/4 p-2">
