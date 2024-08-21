@@ -234,7 +234,7 @@ const Parent = () => {
               </div>
             </div>
 
-            <button className="bg-[#202C45] text-white px-10 py-4 rounded-full mt-10">Submit Now</button>
+            <button className="bg-[#202C45] tracking-tighter text-white px-10 py-4 rounded-full mt-10">Submit Now</button>
           </section>
         </div>
       </div>
