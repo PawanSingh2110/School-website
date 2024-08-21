@@ -12,7 +12,7 @@ const Parent = () => {
         </h1>
       </div>
 
-      <div className="m-5 xl:m-20">
+      <div className="max-xl:m-3 xl:m-20">
         <h1 className="text-4xl text-[#333333] mb-7 font-medium">
           Student Council Guidelines
         </h1>
@@ -102,7 +102,7 @@ const Parent = () => {
         </div>
 
         <div>
-          <h2 className="text-2xl font-medium mb-5">
+          <h2 className="text-2xl font-medium mb-2">
             Student Council Representative Responsibilities
           </h2>
           <ol
@@ -134,7 +134,7 @@ const Parent = () => {
           </ol>
         </div>
 
-        <div className="border-4 border-black p-5 xl:p-10 rounded mt-10">
+        <div className="border-4 border-black max-xl:p-3 xl:p-10 rounded mt-10">
           <h1 className="mb-10 text-2xl font-medium">
             Little Scholars School Student Council Form
           </h1>
@@ -234,7 +234,7 @@ const Parent = () => {
               </div>
             </div>
 
-            <button className="bg-[#202C45] text-white px-10 py-4 rounded-full mt-10">Submit Now</button>
+            <button className="bg-[#202C45] tracking-tighter text-white px-10 py-4 rounded-full mt-10">Submit Now</button>
           </section>
         </div>
       </div>
