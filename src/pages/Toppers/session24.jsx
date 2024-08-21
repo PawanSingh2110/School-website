@@ -30,7 +30,7 @@ const session24 = () => {
         <div className="tab-pane fade active show" id="profile2023-24X" role="tabpanel" aria-labelledby="profile-tab">
           <div className="row" id="classX">
             {[
-              { name: 'AARNA', percentage: '98.2%', image: '../images/toppers/AARNA.webp' },
+              { name: 'AARNA', percentage: '98.2%', image: 'AARNA.webp' },
               { name: 'ANSH AGARWAL', percentage: '98.2%', image: 'ANSH AGARWAL.webp' },
               { name: 'PRANJALI JOSHI', percentage: '97.6%', image: 'PRANJALI JOSHI.webp' },
               { name: 'ADITI SUYAL', percentage: '96.6%', image: 'ADITI SUYAL.webp' },
