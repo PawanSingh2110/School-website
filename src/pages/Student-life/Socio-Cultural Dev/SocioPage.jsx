@@ -6,12 +6,15 @@ import Clubs from './Clubs';
 import SETU from './SETU';
 import IIMUN from './IIMUN';
 import IIMUNForm from './Form';
+import SocioBread from './SocioBreadcrumb';
 
 
 
 const SocioPage = () => {
     return (
-    <div className="SocioApp">
+        <div>
+        <SocioBread />
+        <div className="SocioApp">
         <Sidebar2 />
         <div className="Socio-content">
         <SocioCulture />
@@ -21,8 +24,9 @@ const SocioPage = () => {
         <IIMUN />
         <IIMUNForm />
         </div>
+        </div>
     
-    </div>
+        </div>
       );
     };
 

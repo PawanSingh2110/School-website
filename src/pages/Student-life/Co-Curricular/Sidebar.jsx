@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 const Sidebar = () => {
   const [isSticky, setIsSticky] = useState(false);
+  
 
   useEffect(() => {
     const handleScroll = () => {
@@ -37,7 +38,7 @@ const Sidebar = () => {
 
   return (
     <div className={`sidebar ${isSticky ? 'sticky' : ''}`}>
-      <div className="tab" onClick={() => scrollToSection('coCurricular')}>
+       <div className="tab" onClick={() => scrollToSection('coCurricular')}>
         Co-Curricular
       </div>
       <div className="tab" onClick={() => scrollToSection('clubActivities')}>

@@ -997,19 +997,17 @@ label{
   width: 400px;
   height: fit-content;
   background-color: #fff;
-  position:fixed;
-  font-weight: bold;
   padding-left: 5%;
   padding-right: 2%;
-  margin-top: 25%;
-  top: 0;
-  left: 0;
-  bottom: 0;
+  position:absolute;
+  margin-top: 5%;
+
 }
+
 
 .sidebar.sticky {
   position: absolute;
-  bottom: 100px; 
+  bottom: 20; 
   top: auto;
 }
 
