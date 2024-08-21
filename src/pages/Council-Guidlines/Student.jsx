@@ -12,7 +12,7 @@ const Student = () => {
         </h1>
       </div>
 
-      <div className="m-3 xl:m-20">
+      <div className=" xl:m-20 max-xl:m-3">
         <h1 className="text-4xl text-[#333333] mb-7 font-medium">
           Student Council Guidelines
         </h1>
@@ -132,7 +132,7 @@ const Student = () => {
           </ol>
         </div>
 
-        <div className="border-4 border-black p-3 xl:p-10 rounded mt-10">
+        <div className="border-4 border-black max-xl:p-3 xl:p-10 rounded mt-10">
           <h1 className="mb-10 text-2xl font-medium">
             Little Scholars School Student Council Form
           </h1>
