@@ -9,7 +9,7 @@ import IIMUNForm from './Form';
 
 
 
-const Socio = () => {
+const SocioPage = () => {
     return (
     <div className="SocioApp">
         <Sidebar2 />
@@ -21,6 +21,7 @@ const Socio = () => {
         <IIMUN />
         <IIMUNForm />
         </div>
+    
     </div>
       );
     };
