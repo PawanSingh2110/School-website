@@ -17,13 +17,9 @@ import Registration from "./pages/Registration/Registration";
 import FAQ from "./pages/FAQ/faq";
 // import MediaGallery from './pages/About/MediaGallery';
 // import VideoGallery from './pages/About/VideoGallery';
-import Schooltime from "./pages/School-timing/Schooltime";
-<<<<<<< HEAD
+import Schooltime from "./pages/School-timing/Schooltime"
+import Toppers from "./pages/Toppers/toppers";
 import Cabinet from "./pages/Cabinet/cabinet";
-=======
-import Achievements from "./pages/Achievements/Achievements";
-import EventClander from "./pages/Event-Calender/EventClander";
->>>>>>> 9e958c2be7f345f7e34c80287c1b6f8525e4431b
 
 function App() {
   return (
@@ -48,15 +44,10 @@ function App() {
           <Route path = "/FAQ" element={<FAQ />}/>
           <Route path="/School-timing" element={<Schooltime />} />
           {/* About US */}
-<<<<<<< HEAD
           {/* <Route path="/media-gallery" element={<MediaGallery />} />
           <Route path="/video-gallery" element={<VideoGallery />} /> */}
-
+            <Route path = "/Toppers" element={<Toppers />} />
           <Route path = "/Cabinet" element ={<Cabinet/>}/>
-=======
-           <Route path="/EventClander" element={<EventClander />} />
-          <Route path="/Achievements" element={<Achievements />} /> 
->>>>>>> 9e958c2be7f345f7e34c80287c1b6f8525e4431b
         </Routes>
         
         <Footer/>

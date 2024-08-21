@@ -13,16 +13,16 @@ const Cabinet = () =>{
 
     const cabinets = {
       2024: [
-        { name: 'chhavit', role: 'head boy', img: 'images/cabinets/chhavit.jpg' },
-        { name: 'sukhmeet kaur', role: 'head girl', img: 'images/cabinets/sukhmeet kaur.webp' },
-        { name: 'navrup kaur', role: 'editorial head', img: 'images/cabinets/navrup kaur.webp' },
-        { name: 'medhansh arora', role: 'cultural head', img: 'images/cabinets/medhansh arora.webp' },
-        { name: 'neeraj negi', role: 'sports captain', img: 'images/cabinets/neeraj negi.webp' },
-        { name: 'yashaswi latwal', role: 'sports captain', img: 'images/cabinets/yashaswi latwal.webp' },
-        { name: 'gurmil kaur', role: 'house captain girl ganga', img: 'images/cabinets/gurmil kaur.webp' },
-        { name: 'gauri dangwal', role: 'house captain girl krishna', img: 'images/cabinets/gauri dangwal.webp' },
-        { name: 'komal preet kaur', role: 'house captain girl yamuna', img: 'images/cabinets/komal preet kaur.webp' },
-        { name: 'vedansh chauhan', role: 'house captain boy kaveri', img: 'images/cabinets/vedansh chauhan.webp' },
+        { name: 'chhavit', role: 'head boy', img: '/images/cabinets/chhavit.jpg' },
+        { name: 'sukhmeet kaur', role: 'head girl', img: '/images/cabinets/sukhmeet kaur.webp' },
+        { name: 'navrup kaur', role: 'editorial head', img: '/images/cabinets/navrup kaur.webp' },
+        { name: 'medhansh arora', role: 'cultural head', img: '/images/cabinets/medhansh arora.webp' },
+        { name: 'neeraj negi', role: 'sports captain', img: '/images/cabinets/neeraj negi.webp' },
+        { name: 'yashaswi latwal', role: 'sports captain', img: '/images/cabinets/yashaswi latwal.webp' },
+        { name: 'gurmil kaur', role: 'house captain girl ganga', img: '/images/cabinets/gurmil kaur.webp' },
+        { name: 'gauri dangwal', role: 'house captain girl krishna', img: '/images/cabinets/gauri dangwal.webp' },
+        { name: 'komal preet kaur', role: 'house captain girl yamuna', img: '/images/cabinets/komal preet kaur.webp' },
+        { name: 'vedansh chauhan', role: 'house captain boy kaveri', img: '/images/cabinets/vedansh chauhan.webp' },
       ],
       2023: [
         { name: 'Vansh Nautiyal', role: 'head boy', img: 'images/cabinets/VANSH NAUTIYAL HEAD BOY - 12A.webp' },
