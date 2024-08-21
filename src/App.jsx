@@ -1,4 +1,6 @@
 import { Route, Routes } from "react-router-dom";
+import React from 'react'
+
 import "./App.css";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
@@ -19,6 +21,8 @@ import FAQ from "./pages/FAQ/faq";
 import Schooltime from "./pages/School-timing/Schooltime"
 import Toppers from "./pages/Toppers/toppers";
 import Cabinet from "./pages/Cabinet/cabinet";
+import Escholar from "./pages/EScholar/escholar";
+
 
 function App() {
   return (
@@ -44,6 +48,7 @@ function App() {
           <Route path="/video-gallery" element={<VideoGallery />} /> */}
             <Route path = "/Toppers" element={<Toppers />} />
           <Route path = "/Cabinet" element ={<Cabinet/>}/>
+          <Route path = "/Escholar" element ={<Escholar />} />
         </Routes>
         <Footer />
       </div>
