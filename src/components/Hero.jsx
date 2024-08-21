@@ -138,7 +138,7 @@ function Hero() {
               </div>
               <ul className="submenu">
                 <li><Link to="/Student-Handbook">Student Hand Book</Link></li>
-                <li><Link to="#">Newsletter / Scholar Times</Link></li>
+                <li><Link to="/EScholar">Newsletter / Scholar Times</Link></li>
               </ul>
             </li>
             <li>

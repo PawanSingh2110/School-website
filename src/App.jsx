@@ -1,4 +1,6 @@
 import { Route, Routes } from "react-router-dom";
+import React from 'react'
+
 import "./App.css";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
@@ -19,13 +21,15 @@ import FAQ from "./pages/FAQ/faq";
 import Schooltime from "./pages/School-timing/Schooltime"
 import Toppers from "./pages/Toppers/toppers";
 import Cabinet from "./pages/Cabinet/cabinet";
+import Escholar from "./pages/Escholar/escholar";
+
 import EventClander from "./pages/Event-Calender/EventClander"
 import Sports from "./pages/Student-life/Sports";
 import StudentHandbook from "./pages/Student-Handbook/Student-Handbook";
 import Academics from "./pages/Academics/Academics";
 import CoCurricularPage from "./pages/Student-life/Co-Curricular/CoCurricularPage";
 import SocioPage from "./pages/Student-life/Socio-Cultural Dev/SocioPage";
-import React from 'react';
+
 import StudentForm from "./pages/Council-Guidlines/Student"
 import ParentForm from "./pages/Council-Guidlines/Parent"
 import Achievements from "./pages/Achievements/Achievements"
@@ -50,6 +54,7 @@ function App() {
           <Route path="/Registration" element={<Registration />} />
           <Route path="/FAQ" element={<FAQ />} />
           <Route path="/School-timing" element={<Schooltime />} />
+<<<<<<< HEAD
           <Route path="/school-form" element={<StudentForm />} />
           <Route path="/parent-form" element={<ParentForm />} />
           <Route path="/Achievements" element={<Achievements />} />
@@ -60,9 +65,15 @@ function App() {
           <Route path='/CoCurricularPage' element={<CoCurricularPage />} />
           <Route path="/SocioPage" element={<SocioPage />} />
           <Route path = "/Toppers" element={<Toppers />} />
+=======
+          {/* About US */}
+          {/* <Route path="/media-gallery" element={<MediaGallery />} />
+          <Route path="/video-gallery" element={<VideoGallery />} /> */}
+           <Route path = "/Escholar" element ={<Escholar />} />
+
+            <Route path = "/Toppers" element={<Toppers />} />
+>>>>>>> 4e0bc8e67efb6097d4265c98bd6cb04cfcfb7550
           <Route path = "/Cabinet" element ={<Cabinet/>}/>
-          <Route path="/Academics" element={<Academics />} />
-          
         </Routes>
         <Footer />
       </div>
