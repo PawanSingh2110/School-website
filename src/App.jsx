@@ -54,7 +54,6 @@ function App() {
           <Route path="/Registration" element={<Registration />} />
           <Route path="/FAQ" element={<FAQ />} />
           <Route path="/School-timing" element={<Schooltime />} />
-<<<<<<< HEAD
           <Route path="/school-form" element={<StudentForm />} />
           <Route path="/parent-form" element={<ParentForm />} />
           <Route path="/Achievements" element={<Achievements />} />
@@ -65,14 +64,12 @@ function App() {
           <Route path='/CoCurricularPage' element={<CoCurricularPage />} />
           <Route path="/SocioPage" element={<SocioPage />} />
           <Route path = "/Toppers" element={<Toppers />} />
-=======
           {/* About US */}
           {/* <Route path="/media-gallery" element={<MediaGallery />} />
           <Route path="/video-gallery" element={<VideoGallery />} /> */}
            <Route path = "/Escholar" element ={<Escholar />} />
 
             <Route path = "/Toppers" element={<Toppers />} />
->>>>>>> 4e0bc8e67efb6097d4265c98bd6cb04cfcfb7550
           <Route path = "/Cabinet" element ={<Cabinet/>}/>
         </Routes>
         <Footer />
