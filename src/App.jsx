@@ -23,6 +23,8 @@ import EventClander from "./pages/Event-Calender/EventClander"
 import Sports from "./pages/Student-life/Sports";
 import StudentHandbook from "./pages/Student-Handbook/Student-Handbook";
 import Academics from "./pages/Academics/Academics";
+import CoCurricularPage from "./pages/Student-life/Co-Curricular/CoCurricularPage";
+import Socio from "./pages/Student-life/Socio-Cultural Dev/SocioPage";
 
 function App() {
   return (
@@ -50,6 +52,8 @@ function App() {
           <Route path="/EventClander" element={<EventClander />} />
           <Route path="/Sports" element={<Sports />} />
           <Route path="/Student-Handbook" element={<StudentHandbook />} />
+          <Route path='/Student-life' element={<CoCurricularPage />} />
+          <Route path='/Student-life' element={<SocioPage />} />
           <Route path="/Academics" element={<Academics />} />
           
         </Routes>

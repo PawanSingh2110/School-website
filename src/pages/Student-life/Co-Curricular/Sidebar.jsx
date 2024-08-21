@@ -12,7 +12,7 @@ const Sidebar = () => {
   };
 
   return (
-    <div className="sidebar">
+    <div className="CoApp">
       <div className="tab" onClick={() => scrollToSection('coCurricular')}>
         Co-Curricular
       </div>

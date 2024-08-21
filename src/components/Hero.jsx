@@ -117,8 +117,8 @@ function Hero() {
               <ul className="submenu">
                 <li><Link to="/Academics">Academics</Link></li>
                 <li><Link to="/Sports">Sports</Link></li>  
-                <li><Link to="#">Co-Curricular</Link></li>
-                <li><Link to="#">Socio-Cultural Development</Link></li>
+                <li><Link to="/CoCurricularPage">Co-Curricular</Link></li>
+                <li><Link to="/SocioPage">Socio-Cultural Development</Link></li>
                 <li><Link to="#">Counselling</Link></li>
                 <li className="dropdown">
                   <div>
@@ -234,8 +234,8 @@ function Hero() {
               <li><Link to="#">Sports</Link></li>
               <li><Link to="#">Swimming Pool Form</Link></li>
               <li><Link to="#">Blood Donation Form</Link></li>
-              <li><Link to="#">Co-Curricular</Link></li>
-              <li><Link to="#">Socio-Cultural Development</Link></li>
+              <li><Link to="/CoCurricularPage">Co-Curricular</Link></li>
+              <li><Link to="/SocioPage">Socio-Cultural Development</Link></li>
               <li><Link to="#">Counselling</Link></li>
               <li className="accordion-item">
                 <input type="checkbox" id="council-guidelines" className="accordion-toggle" />
