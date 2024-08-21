@@ -34,22 +34,22 @@ const session23 = () => {
           <div className="tab-pane fade active show" id="profile2023-24X" role="tabpanel" aria-labelledby="profile-tab">
             <div className="row" id="classX">
               {[
-                  { name: 'SUKHMEET KAUR', percentage: '98%', image: 'images/toppers/1-SUKHMEET KAUR_98.webp' },
-                  { name: 'HARSHI RAJPUT', percentage: '97%', image: 'images/toppers/2-HARSHI RAJPUT_97.webp' },
-                  { name: 'KOMALPREET KAUR', percentage: '97%', image: 'images/toppers/3-KOMALPREET KAUR_97.webp' },
-                  { name: 'GUNJAN RAWAT', percentage: '96.8%', image: 'images/toppers/4-GUNJAN RAWAT_96.8.webp' },
-                  { name: 'VANSH NARULA', percentage: '96.6%', image: 'images/toppers/5-VANSH NARULA_96.6.webp' },
-                  { name: 'PARTH PUNIT JOSHI', percentage: '96.4%', image: 'images/toppers/6-PARTH PUNIT JOSHI_96.4.webp' },
-                  { name: 'ARUSH DHASMANA', percentage: '96.2%', image: 'images/toppers/7-ARUSH DHASMANA_96.2.webp' },
-                  { name: 'GAURAV BISHT', percentage: '95.6%', image: 'images/toppers/8-GAURAV BISHT_95.6.webp' },
-                  { name: 'OJASV MITTAL', percentage: '95.6%', image: 'images/toppers/9-OJASV MITTAL_95.6.webp' },
-                  { name: 'YASH LAKHCHAURA', percentage: '95.4%', image: 'images/toppers/10-YASH LAKHCHAURA_95.4.webp' },
-                  { name: 'ADITYA CHAUHAN', percentage: '94.8%', image: 'images/toppers/11-ADITYA CHAUHAN_94.8.webp' },
-                  { name: 'SUDARSHAN SINGH', percentage: '94.4%', image: 'images/toppers/12-SUDARSHAN SINGH_94.4.webp' },
-                  { name: 'GURMIL KAUR SAHNI', percentage: '94%', image: 'images/toppers/13-GURMIL KAUR SAHNI_94.webp' },
-                  { name: 'SHREY MEHROTRA', percentage: '94%', image: 'images/toppers/14-SHREY MEHROTRA_94.webp' },
-                  { name: 'SAUMAY AGARWAL', percentage: '93.8%', image: 'images/toppers/15-SAUMAY AGARWAL_93.8.webp' },
-                  { name: 'PRACHI PANDEY', percentage: '93.4%', image: 'images/toppers/16-PRACHI PANDEY_93.4.webp' },
+                  { name: 'SUKHMEET KAUR', percentage: '98%', image: '1-SUKHMEET KAUR_98.webp' },
+                  { name: 'HARSHI RAJPUT', percentage: '97%', image: '2-HARSHI RAJPUT_97.webp' },
+                  { name: 'KOMALPREET KAUR', percentage: '97%', image: '3-KOMALPREET KAUR_97.webp' },
+                  { name: 'GUNJAN RAWAT', percentage: '96.8%', image: '4-GUNJAN RAWAT_96.8.webp' },
+                  { name: 'VANSH NARULA', percentage: '96.6%', image: '5-VANSH NARULA_96.6.webp' },
+                  { name: 'PARTH PUNIT JOSHI', percentage: '96.4%', image: '6-PARTH PUNIT JOSHI_96.4.webp' },
+                  { name: 'ARUSH DHASMANA', percentage: '96.2%', image: '7-ARUSH DHASMANA_96.2.webp' },
+                  { name: 'GAURAV BISHT', percentage: '95.6%', image: '8-GAURAV BISHT_95.6.webp' },
+                  { name: 'OJASV MITTAL', percentage: '95.6%', image: '9-OJASV MITTAL_95.6.webp' },
+                  { name: 'YASH LAKHCHAURA', percentage: '95.4%', image: '10-YASH LAKHCHAURA_95.4.webp' },
+                  { name: 'ADITYA CHAUHAN', percentage: '94.8%', image: '11-ADITYA CHAUHAN_94.8.webp' },
+                  { name: 'SUDARSHAN SINGH', percentage: '94.4%', image: '12-SUDARSHAN SINGH_94.4.webp' },
+                  { name: 'GURMIL KAUR SAHNI', percentage: '94%', image: '13-GURMIL KAUR SAHNI_94.webp' },
+                  { name: 'SHREY MEHROTRA', percentage: '94%', image: '14-SHREY MEHROTRA_94.webp' },
+                  { name: 'SAUMAY AGARWAL', percentage: '93.8%', image: '15-SAUMAY AGARWAL_93.8.webp' },
+                  { name: 'PRACHI PANDEY', percentage: '93.4%', image: '16-PRACHI PANDEY_93.4.webp' },
                 ].map((topper, index) => (
                     <div className="col-xs-12 col-sm-6 col-md-2 sm-text-center" key={index}>
                       <div className="pop-out">
@@ -78,91 +78,91 @@ const session23 = () => {
         name: "Sneha Bisht",
         percentage: 96.6,
         subject: "science",
-        imgSrc: "images/toppers/sneha-bisht-966-65aa5dfe97ce6.webp",
+        image: "sneha-bisht-966-65aa5dfe97ce6.webp",
       },
       {
         name: "Samriddhi Singh",
         percentage: 96.2,
         subject: "science",
-        imgSrc: "images/toppers/samriddhi-singh-962-65aa5dfcb7512.webp",
+        image: "samriddhi-singh-962-65aa5dfcb7512.webp",
       },
       {
         name: "Vardaan Gupta",
         percentage: 95.8,
         subject: "science",
-        imgSrc: "images/toppers/vardaan-gupta-958-65aa5e002b86f.webp",
+        image: "vardaan-gupta-958-65aa5e002b86f.webp",
       },
       {
         name: "Samriddhi Bansal",
         percentage: 93.6,
         subject: "commerce",
-        imgSrc: "images/toppers/manya-agarwal-954-65aa5df9c77ff.webp",
+        image: "manya-agarwal-954-65aa5df9c77ff.webp",
       },
       {
         name: "Manya Agarwal",
         percentage: 95.4,
         subject: "commerce",
-        imgSrc: "images/toppers/manya-agarwal-954-65aa5df9c77ff.webp",
+        image: "manya-agarwal-954-65aa5df9c77ff.webp",
       },
       {
         name: "Harshita Singh",
         percentage: 94.6,
         subject: "science",
-        imgSrc: "images/toppers/harshita-singh-946-65aa5e05d5c36.webp",
+        image: "harshita-singh-946-65aa5e05d5c36.webp",
       },
       {
         name: "Ananya Sharma",
         percentage: 94.2,
         subject: "science",
-        imgSrc: "images/toppers/ananya-sharma-942-65aa5e06aedd3.webp",
+        image: "ananya-sharma-942-65aa5e06aedd3.webp",
       },
       {
         name: "Krishnansh Sharma",
         percentage: 93.8,
         subject: "science",
-        imgSrc: "images/toppers/krishnansh-sharma-938-65aa5e07a00a8.webp",
+        image: "krishnansh-sharma-938-65aa5e07a00a8.webp",
       },
       {
         name: "Palak Gupta",
         percentage: 93.6,
         subject: "commerce",
-        imgSrc: "images/toppers/palak-gupta-936-65aa5e0899c58.webp",
+        image: "palak-gupta-936-65aa5e0899c58.webp",
       },
       {
         name: "Arnav Mehra",
         percentage: 93.2,
         subject: "science",
-        imgSrc: "images/toppers/arnav-mehra-932-65aa5e09c962d.webp",
+        image: "arnav-mehra-932-65aa5e09c962d.webp",
       },
       {
         name: "Riya Jain",
         percentage: 93.0,
         subject: "commerce",
-        imgSrc: "images/toppers/riya-jain-930-65aa5e0a8b123.webp",
+        image: "riya-jain-930-65aa5e0a8b123.webp",
       },
       {
         name: "Naman Sharma",
         percentage: 92.8,
         subject: "science",
-        imgSrc: "images/toppers/naman-sharma-928-65aa5e0b7675a.webp",
+        image: "naman-sharma-928-65aa5e0b7675a.webp",
       },
       {
         name: "Isha Agarwal",
         percentage: 92.6,
         subject: "commerce",
-        imgSrc: "images/toppers/isha-agarwal-926-65aa5e0c54324.webp",
+        image: "isha-agarwal-926-65aa5e0c54324.webp",
       },
       {
         name: "Kavya Mittal",
         percentage: 92.4,
         subject: "science",
-        imgSrc: "images/toppers/kavya-mittal-924-65aa5e0d2f86f.webp",
+        image: "kavya-mittal-924-65aa5e0d2f86f.webp",
       },
       {
         name: "Yashvardhan Singh",
         percentage: 92.2,
         subject: "commerce",
-        imgSrc: "images/toppers/yashvardhan-singh-922-65aa5e0dff549.webp",
+        image: "yashvardhan-singh-922-65aa5e0dff549.webp",
       },
     ].map((topper, index) => (
         <div
@@ -180,8 +180,8 @@ const session23 = () => {
                   borderRadius: "5px",
                 }}
                 alt=""
-                src={topper.image}
-              />
+                src={`images/toppers/${topper.image}`}
+                />
             </div>
             <div
               className="team-bottom-part bg-lighter text-center p-10 pt-20 pb-10"

@@ -56,73 +56,73 @@ const Cabinet = () =>{
       {
         role: 'head boy',
         name: 'shrey sharma',
-        image: 'images/cabinets/Shrey Sharma Head Boy.webp',
+        img: 'images/cabinets/Shrey Sharma Head Boy.webp',
         alt: 'shrey sharma'
       },
       {
         role: 'head girl',
         name: 'ananya mishara',
-        image: 'images/cabinets/Ananya Mishara Head Girl.webp',
+        img: 'images/cabinets/Ananya Mishara Head Girl.webp',
         alt: 'ananya mishara'
       },
       {
         role: 'sports captain',
         name: 'abhishek chauhan',
-        image: 'images/cabinets/Abhishek Chauhan Sports Captain.webp',
+        img: 'images/cabinets/Abhishek Chauhan Sports Captain.webp',
         alt: 'abhishek chauhan'
       },
       {
         role: 'sports captain',
         name: 'divyangana bhatt',
-        image: 'images/cabinets/Divyangana Bhatt Sports Captains.webp',
+        img: 'images/cabinets/Divyangana Bhatt Sports Captains.webp',
         alt: 'divyangana bhatt'
       },
       {
         role: 'house captain',
         name: 'devbrath rajwar',
-        image: 'images/cabinets/Devbrath Rajwar House Captain.webp',
+        img: 'images/cabinets/Devbrath Rajwar House Captain.webp',
         alt: 'devbrath rajwar'
       },
       {
         role: 'house captain',
         name: 'divyansh chauhan',
-        image: 'images/cabinets/Divyanshu Chauhan House Captain.webp',
+        img: 'images/cabinets/Divyanshu Chauhan House Captain.webp',
         alt: 'divyansh chauhan'
       },
       {
         role: 'house captain',
         name: 'happy rahgav',
-        image: 'images/cabinets/Happy Raghav House Captain.webp',
+        img: 'images/cabinets/Happy Raghav House Captain.webp',
         alt: 'happy rahgav'
       },
       {
         role: 'house captain',
         name: 'isha joshi',
-        image: 'images/cabinets/Isha Joshi House Captain.webp',
+        img: 'images/cabinets/Isha Joshi House Captain.webp',
         alt: 'isha joshi'
       },
       {
         role: 'house captain',
         name: 'manasvi',
-        image: 'images/cabinets/Manasvi House Captain.webp',
+        img: 'images/cabinets/Manasvi House Captain.webp',
         alt: 'manasvi'
       },
       {
         role: 'house captain',
         name: 'shruti goswami',
-        image: 'images/cabinets/Shruti Goswami House Captain.webp',
+        img: 'images/cabinets/Shruti Goswami House Captain.webp',
         alt: 'shruti goswami'
       },
       {
         role: 'house captain',
         name: 'srishti rawat',
-        image: 'images/cabinets/Srishti Rawat House Captain.webp',
+        img: 'images/cabinets/Srishti Rawat House Captain.webp',
         alt: 'srishti rawat'
       },
       {
         role: 'house captain',
         name: 'tejender yadav',
-        image: 'images/cabinets/Tejender Yadav House Captain.webp',
+        img: 'images/cabinets/Tejender Yadav House Captain.webp',
         alt: 'tejender yadav'
       },
 

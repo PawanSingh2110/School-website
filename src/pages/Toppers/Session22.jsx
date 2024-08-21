@@ -34,21 +34,21 @@ const Session22 = () => {
           <div className="tab-pane fade active show" id="profile2023-24X" role="tabpanel" aria-labelledby="profile-tab">
             <div className="row" id="classX">
               {[
-                    { name: "AKSHEJ GUPTA", percentage: "97.8%", imgSrc: "images/toppers/1_AKSHEJ GUPTA_97.8.webp" },
-                    { name: "VASHITVA AGRAWAL", percentage: "97.8%", imgSrc: "images/toppers/2_VASHITVA AGRAWAL_97.8.webp" },
-                    { name: "APOORVA RAWAT", percentage: "97.6%", imgSrc: "images/toppers/3_APOORVA RAWAT_97.6.webp" },
-                    { name: "SURYANSH SAXENA", percentage: "97%", imgSrc: "images/toppers/4_SURYANSH SAXENA_97.webp" },
-                    { name: "PAKHI AGARWAL", percentage: "97%", imgSrc: "images/toppers/5_PAKHI AGARWAL_97.webp" },
-                    { name: "GARV BAJAJ", percentage: "95.8%", imgSrc: "images/toppers/6_GARV BAJAJ2_95.8.webp" },
-                    { name: "SHREY PRATAP SINGH", percentage: "95.8%", imgSrc: "images/toppers/7_SHREY PRATAP SINGH_95.8.webp" },
-                    { name: "ANAV KUMAR", percentage: "95.8%", imgSrc: "images/toppers/8_ANAV KUMAR_95.8.webp" },
-                    { name: "PIYUSH SUYAL", percentage: "95.6%", imgSrc: "images/toppers/9_PIYUSH SUYAL_95.6.webp" },
-                    { name: "ISHAAN PUNETHA", percentage: "95.4%", imgSrc: "images/toppers/10_ISHAAN PUNETHA_95.4.webp" },
-                    { name: "VANSH NAUTIYAL", percentage: "95.4%", imgSrc: "images/toppers/11_VANSH NAUTIYAL_95.4.webp" },
-                    { name: "KAVYA AGARWAL", percentage: "95.2%", imgSrc: "images/toppers/12_KAVYA AGARWAL_95.2.webp" },
-                    { name: "MITUL JOSHI", percentage: "95%", imgSrc: "images/toppers/13_MITUL JOSHI_95.webp" },
-                    { name: "MANAS CHAUHAN", percentage: "94.6%", imgSrc: "images/toppers/14_MANAS CHAUHAN_94.6.webp" },
-                    { name: "AVIRAL MATHUR", percentage: "94.4%", imgSrc: "images/toppers/15_AVIRAL MATHUR_94.4.webp" },
+                    { name: "AKSHEJ GUPTA", percentage: "97.8%", image: "1_AKSHEJ GUPTA_97.8.webp" },
+                    { name: "VASHITVA AGRAWAL", percentage: "97.8%", image: "2_VASHITVA AGRAWAL_97.8.webp" },
+                    { name: "APOORVA RAWAT", percentage: "97.6%", image: "3_APOORVA RAWAT_97.6.webp" },
+                    { name: "SURYANSH SAXENA", percentage: "97%", image: "4_SURYANSH SAXENA_97.webp" },
+                    { name: "PAKHI AGARWAL", percentage: "97%", image: "5_PAKHI AGARWAL_97.webp" },
+                    { name: "GARV BAJAJ", percentage: "95.8%", image: "6_GARV BAJAJ2_95.8.webp" },
+                    { name: "SHREY PRATAP SINGH", percentage: "95.8%", image: "7_SHREY PRATAP SINGH_95.8.webp" },
+                    { name: "ANAV KUMAR", percentage: "95.8%", image: "8_ANAV KUMAR_95.8.webp" },
+                    { name: "PIYUSH SUYAL", percentage: "95.6%", image: "9_PIYUSH SUYAL_95.6.webp" },
+                    { name: "ISHAAN PUNETHA", percentage: "95.4%", image: "10_ISHAAN PUNETHA_95.4.webp" },
+                    { name: "VANSH NAUTIYAL", percentage: "95.4%", image: "11_VANSH NAUTIYAL_95.4.webp" },
+                    { name: "KAVYA AGARWAL", percentage: "95.2%", image: "12_KAVYA AGARWAL_95.2.webp" },
+                    { name: "MITUL JOSHI", percentage: "95%", image: "13_MITUL JOSHI_95.webp" },
+                    { name: "MANAS CHAUHAN", percentage: "94.6%", image: "14_MANAS CHAUHAN_94.6.webp" },
+                    { name: "AVIRAL MATHUR", percentage: "94.4%", image: "15_AVIRAL MATHUR_94.4.webp" },
                 ].map((topper, index) => (
                     <div className="col-xs-12 col-sm-6 col-md-2 sm-text-center" key={index}>
                       <div className="pop-out">
