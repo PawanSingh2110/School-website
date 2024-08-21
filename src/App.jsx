@@ -21,8 +21,18 @@ import FAQ from "./pages/FAQ/faq";
 import Schooltime from "./pages/School-timing/Schooltime"
 import Toppers from "./pages/Toppers/toppers";
 import Cabinet from "./pages/Cabinet/cabinet";
+import Escholar from "./pages/Escholar/escholar";
 
-import Escholar from "./pages/EScholar/escholar";
+import EventClander from "./pages/Event-Calender/EventClander"
+import Sports from "./pages/Student-life/Sports";
+import StudentHandbook from "./pages/Student-Handbook/Student-Handbook";
+import Academics from "./pages/Academics/Academics";
+import CoCurricularPage from "./pages/Student-life/Co-Curricular/CoCurricularPage";
+import SocioPage from "./pages/Student-life/Socio-Cultural Dev/SocioPage";
+
+import StudentForm from "./pages/Council-Guidlines/Student"
+import ParentForm from "./pages/Council-Guidlines/Parent"
+import Achievements from "./pages/Achievements/Achievements"
 
 
 function App() {
@@ -47,7 +57,7 @@ function App() {
           {/* About US */}
           {/* <Route path="/media-gallery" element={<MediaGallery />} />
           <Route path="/video-gallery" element={<VideoGallery />} /> */}
-                    <Route path = "/Escholar" element ={<Escholar />} />
+           <Route path = "/Escholar" element ={<Escholar />} />
 
             <Route path = "/Toppers" element={<Toppers />} />
           <Route path = "/Cabinet" element ={<Cabinet/>}/>

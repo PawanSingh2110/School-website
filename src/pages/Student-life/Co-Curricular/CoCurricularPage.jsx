@@ -6,12 +6,12 @@ import ClubActivities from './ClubActivities';
 
 const CoCurricularPage = () => {
     return (
-        <div className="CoApp">
+      <div className="CoApp">
         <Sidebar />
-      <div className="Co-content">
-      <CoCurricular />
-      <ClubActivities />
-      </div>
+        <div className="Co-content">
+        <CoCurricular />
+        <ClubActivities />
+        </div>
       </div>
       );
     };
