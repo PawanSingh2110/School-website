@@ -25,6 +25,11 @@ import StudentHandbook from "./pages/Student-Handbook/Student-Handbook";
 import Academics from "./pages/Academics/Academics";
 import CoCurricularPage from "./pages/Student-life/Co-Curricular/CoCurricularPage";
 import SocioPage from "./pages/Student-life/Socio-Cultural Dev/SocioPage";
+import React from 'react';
+import StudentForm from "./pages/Council-Guidlines/Student"
+import ParentForm from "./pages/Council-Guidlines/Parent"
+import Achievements from "./pages/Achievements/Achievements"
+
 
 function App() {
   return (

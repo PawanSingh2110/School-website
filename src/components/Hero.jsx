@@ -114,7 +114,7 @@ function Hero() {
                 <li><Link to="/Sports">Sports</Link></li>  
                 <li><Link to="/CoCurricularPage">Co-Curricular</Link></li>
                 <li><Link to="/SocioPage">Socio-Cultural Development</Link></li>
-                <li><Link to="#">Counselling</Link></li>
+                
                 <li className="dropdown">
                   <div>
                     <Link to="#">Council Guidelines</Link>
@@ -225,13 +225,12 @@ function Hero() {
               Student Life <i className="fa-solid fa-chevron-down"></i>
             </label>
             <ul className="accordion-content">
-              <li><Link to="#">Academics</Link></li>
-              <li><Link to="#">Sports</Link></li>
-              <li><Link to="#">Swimming Pool Form</Link></li>
-              <li><Link to="#">Blood Donation Form</Link></li>
+              <li><Link to="/Academics">Academics</Link></li>
+              <li><Link to="/Sports">Sports</Link></li>
+             
               <li><Link to="/CoCurricularPage">Co-Curricular</Link></li>
               <li><Link to="/SocioPage">Socio-Cultural Development</Link></li>
-              <li><Link to="#">Counselling</Link></li>
+              
               <li className="accordion-item">
                 <input type="checkbox" id="council-guidelines" className="accordion-toggle" />
                 <label htmlFor="council-guidelines" className="accordion-header">
@@ -242,10 +241,10 @@ function Hero() {
                   <li><Link to="/parent-form">Parent Form</Link></li>
                 </ul>
               </li>
-              <li><Link to="#">Achievements</Link></li>
-              <li><Link to="#">Events Calendar</Link></li>
-              <li><Link to="#">Toppers</Link></li>
-              <li><Link to="#">Cabinet</Link></li>
+              <li><Link to="/Achievements">Achievements</Link></li>
+                <li><Link to="/EventClander">Events Calendar</Link></li>
+                <li><Link to="/Toppers">Toppers</Link></li>
+                <li><Link to="/Cabinet">Cabinet</Link></li>
             </ul>
           </li>
           <li className="accordion-item">
@@ -254,8 +253,8 @@ function Hero() {
               News & Calendar <i className="fa-solid fa-chevron-down"></i>
             </label>
             <ul className="accordion-content">
-              <li><Link to="#">Student Hand Book</Link></li>
-              <li><Link to="#">Newsletter / Scholar Times</Link></li>
+            <li><Link to="/Student-Handbook">Student Hand Book</Link></li>
+            <li><Link to="#">Newsletter / Scholar Times</Link></li>
             </ul>
           </li>
           <li className="accordion-item">
