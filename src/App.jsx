@@ -14,25 +14,11 @@ import Helpdesk from "./pages/Addmission-helpdsk/Helpdesk";
 import Prodecure from "./pages/Addmission-Prodecure/Prodecure";
 import Registration from "./pages/Registration/Registration";
 import FAQ from "./pages/FAQ/faq";
-<<<<<<< HEAD
 // import MediaGallery from './pages/About/MediaGallery';
 // import VideoGallery from './pages/About/VideoGallery';
 import Schooltime from "./pages/School-timing/Schooltime"
 import Toppers from "./pages/Toppers/toppers";
 import Cabinet from "./pages/Cabinet/cabinet";
-=======
-import Schooltime from "./pages/School-timing/Schooltime";
-import StudentForm from './pages/Council-Guidlines/Student';
-import ParentForm from './pages/Council-Guidlines/Parent';
-import Achievements from "./pages/Achievements/Achievements"
-import Cabinet from "./pages/Cabinet/cabinet";
-import EventClander from "./pages/Event-Calender/EventClander"
-import Sports from "./pages/Student-life/Sports";
-import StudentHandbook from "./pages/Student-Handbook/Student-Handbook";
-import Academics from "./pages/Academics/Academics";
-import CoCurricularPage from "./pages/Student-life/Co-Curricular/CoCurricularPage";
-import Socio from "./pages/Student-life/Socio-Cultural Dev/SocioPage";
->>>>>>> b1b7bb322c8b129f41a369ec7cb3c74780d580c7
 
 function App() {
   return (
@@ -53,25 +39,11 @@ function App() {
           <Route path="/Registration" element={<Registration />} />
           <Route path="/FAQ" element={<FAQ />} />
           <Route path="/School-timing" element={<Schooltime />} />
-<<<<<<< HEAD
           {/* About US */}
           {/* <Route path="/media-gallery" element={<MediaGallery />} />
           <Route path="/video-gallery" element={<VideoGallery />} /> */}
             <Route path = "/Toppers" element={<Toppers />} />
           <Route path = "/Cabinet" element ={<Cabinet/>}/>
-=======
-          <Route path="/school-form" element={<StudentForm />} />
-          <Route path="/parent-form" element={<ParentForm />} />
-          <Route path="/Achievements" element={<Achievements />} />
-          <Route path="/Cabinet" element={<Cabinet />} />
-          <Route path="/EventClander" element={<EventClander />} />
-          <Route path="/Sports" element={<Sports />} />
-          <Route path="/Student-Handbook" element={<StudentHandbook />} />
-          <Route path='/Student-life' element={<CoCurricularPage />} />
-          <Route path='/Student-life' element={<SocioPage />} />
-          <Route path="/Academics" element={<Academics />} />
-          
->>>>>>> b1b7bb322c8b129f41a369ec7cb3c74780d580c7
         </Routes>
         <Footer />
       </div>
