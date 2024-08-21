@@ -19,6 +19,12 @@ import FAQ from "./pages/FAQ/faq";
 import Schooltime from "./pages/School-timing/Schooltime"
 import Toppers from "./pages/Toppers/toppers";
 import Cabinet from "./pages/Cabinet/cabinet";
+import EventClander from "./pages/Event-Calender/EventClander"
+import Sports from "./pages/Student-life/Sports";
+import StudentHandbook from "./pages/Student-Handbook/Student-Handbook";
+import Academics from "./pages/Academics/Academics";
+import CoCurricularPage from "./pages/Student-life/Co-Curricular/CoCurricularPage";
+import SocioPage from "./pages/Student-life/Socio-Cultural Dev/SocioPage";
 
 function App() {
   return (
@@ -39,11 +45,19 @@ function App() {
           <Route path="/Registration" element={<Registration />} />
           <Route path="/FAQ" element={<FAQ />} />
           <Route path="/School-timing" element={<Schooltime />} />
-          {/* About US */}
-          {/* <Route path="/media-gallery" element={<MediaGallery />} />
-          <Route path="/video-gallery" element={<VideoGallery />} /> */}
-            <Route path = "/Toppers" element={<Toppers />} />
+          <Route path="/school-form" element={<StudentForm />} />
+          <Route path="/parent-form" element={<ParentForm />} />
+          <Route path="/Achievements" element={<Achievements />} />
+          <Route path="/Cabinet" element={<Cabinet />} />
+          <Route path="/EventClander" element={<EventClander />} />
+          <Route path="/Sports" element={<Sports />} />
+          <Route path="/Student-Handbook" element={<StudentHandbook />} />
+          <Route path='/CoCurricularPage' element={<CoCurricularPage />} />
+          <Route path='/SocioPage' element={<SocioPage />} />
+          <Route path = "/Toppers" element={<Toppers />} />
           <Route path = "/Cabinet" element ={<Cabinet/>}/>
+          <Route path="/Academics" element={<Academics />} />
+          
         </Routes>
         <Footer />
       </div>

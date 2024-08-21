@@ -8,20 +8,21 @@ import IIMUN from './IIMUN';
 import IIMUNForm from './Form';
 
 
+
 const Socio = () => {
     return (
-        <div className="SocioApp">
+    <div className="SocioApp">
         <Sidebar2 />
-      <div className="Socio-content">
-      <SocioCulture />
+        <div className="Socio-content">
+        <SocioCulture />
         <SETU />
         <ARMS />
         <Clubs />
         <IIMUN />
         <IIMUNForm />
-      </div>
-      </div>
+        </div>
+    </div>
       );
     };
 
-    export default Socio ;
+    export default SocioPage ;
