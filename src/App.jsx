@@ -17,6 +17,12 @@ import FAQ from "./pages/FAQ/faq";
 import Schooltime from "./pages/School-timing/Schooltime";
 import StudentForm from './pages/Council-Guidlines/Student';
 import ParentForm from './pages/Council-Guidlines/Parent';
+import Achievements from "./pages/Achievements/Achievements"
+import Cabinet from "./pages/Cabinet/cabinet";
+import EventClander from "./pages/Event-Calender/EventClander"
+import Sports from "./pages/Student-life/Sports";
+import StudentHandbook from "./pages/Student-Handbook/Student-Handbook";
+import Academics from "./pages/Academics/Academics";
 
 function App() {
   return (
@@ -39,6 +45,13 @@ function App() {
           <Route path="/School-timing" element={<Schooltime />} />
           <Route path="/school-form" element={<StudentForm />} />
           <Route path="/parent-form" element={<ParentForm />} />
+          <Route path="/Achievements" element={<Achievements />} />
+          <Route path="/Cabinet" element={<Cabinet />} />
+          <Route path="/EventClander" element={<EventClander />} />
+          <Route path="/Sports" element={<Sports />} />
+          <Route path="/Student-Handbook" element={<StudentHandbook />} />
+          <Route path="/Academics" element={<Academics />} />
+          
         </Routes>
         <Footer />
       </div>

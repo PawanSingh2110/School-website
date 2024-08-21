@@ -115,10 +115,8 @@ function Hero() {
                 <i className="fa-solid fa-chevron-down p-1"></i>
               </div>
               <ul className="submenu">
-                <li><Link to="#">Academics</Link></li>
-                <li><Link to="Sports">Sports</Link></li>
-                <li><Link to="#">Swimming Pool Form</Link></li>
-                <li><Link to="#">Blood Donation Form</Link></li>
+                <li><Link to="/Academics">Academics</Link></li>
+                <li><Link to="/Sports">Sports</Link></li>  
                 <li><Link to="#">Co-Curricular</Link></li>
                 <li><Link to="#">Socio-Cultural Development</Link></li>
                 <li><Link to="#">Counselling</Link></li>
@@ -144,7 +142,7 @@ function Hero() {
                 <i className="fa-solid fa-chevron-down p-1"></i>
               </div>
               <ul className="submenu">
-                <li><Link to="#">Student Hand Book</Link></li>
+                <li><Link to="/Student-Handbook">Student Hand Book</Link></li>
                 <li><Link to="#">Newsletter / Scholar Times</Link></li>
               </ul>
             </li>

@@ -23,7 +23,7 @@ const StudentHandbook = () => {
         </h1>
         <div className="w-20 h-1 bg-gray-800 mb-8"></div>
         <a href="#" class=" font-bold underline block student-handbook mb-28">
-          <FaArrowAltCircleRight className="bg-red-600 mr-2 right-arrow" />
+          <FaArrowAltCircleRight className=" text-red-500 mr-2 right-arrow" />
           Students Handbook 2024-25
         </a>
         <p class="mb-6 text-left">
@@ -46,7 +46,7 @@ const StudentHandbook = () => {
               <td class="py-3 px-6 text-left whitespace-nowrap">1</td>
               <td class="py-3 px-6 text-left">Summer Camp Consent</td>
               <td class="py-3 px-6 text-left">
-                <FaArrowAltCircleRight className="bg-red-600 mr-2 right-arrow" />
+                <FaArrowAltCircleRight className=" text-red-500 mr-2 right-arrow" />
                 <a href="#" class=" font-bold">
                   fill
                 </a>
@@ -56,7 +56,7 @@ const StudentHandbook = () => {
               <td class="py-3 px-6 text-left whitespace-nowrap">2</td>
               <td class="py-3 px-6 text-left">Summer Camp (open for all)</td>
               <td class="py-3 px-6 text-left">
-                <FaArrowAltCircleRight className="bg-red-600 mr-2 right-arrow" />
+                <FaArrowAltCircleRight className=" text-red-500 mr-2 right-arrow" />
 
                 <a href="#" class=" font-bold">
                   fill

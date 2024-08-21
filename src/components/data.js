@@ -2240,6 +2240,44 @@ export const Sportdata=[
     name:"Chess"
   },
 ]
+export const Academic=[
+  {
+    id:1,
+    name:"Arts"
+  },
+  {
+    id:2,
+    name:"Commerce"
+  },
+  {
+    id:3,
+    name:"English"
+  },
+  {
+    id:4,
+    name:"Hindi"
+  },
+  {
+    id:5,
+    name:"Humanities"
+  },
+  {
+    id:6,
+    name:"IT"
+  },
+  {
+    id:7,
+    name:"Maths"
+  },
+  {
+    id:8,
+    name:"Physical Education"
+  },
+  {
+    id:9,
+    name:"Science"
+  },
+]
 
 
 /*
