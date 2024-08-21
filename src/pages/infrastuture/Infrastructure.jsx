@@ -608,11 +608,11 @@ function SlideBtnEight() {
 
 
 const Infrastructure = () => {
-  // Initialize with the default active button
+  
   const [activeButton, setActiveButton] = useState("button1");
 
   const handleClick = (button) => {
-    // Toggle button visibility
+    
     setActiveButton(button === activeButton ? null : button);
   };
 
@@ -626,7 +626,7 @@ const Infrastructure = () => {
         </h1>
       </div>
 
-      <div className="xl:p-20">
+      <div className="p-2 xl:p-20">
         <h1 className="text-4xl font-medium text-[#333333]">INFRASTRUCTURE</h1>
         <div className="border-b-4 border-[#202C45] w-[5vw] mt-5"></div>
 
