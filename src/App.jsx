@@ -16,20 +16,16 @@ import Helpdesk from "./pages/Addmission-helpdsk/Helpdesk";
 import Prodecure from "./pages/Addmission-Prodecure/Prodecure";
 import Registration from "./pages/Registration/Registration";
 import FAQ from "./pages/FAQ/faq";
-// import MediaGallery from './pages/About/MediaGallery';
-// import VideoGallery from './pages/About/VideoGallery';
 import Schooltime from "./pages/School-timing/Schooltime"
 import Toppers from "./pages/Toppers/toppers";
 import Cabinet from "./pages/Cabinet/cabinet";
 import Escholar from "./pages/Escholar/escholar";
-
 import EventClander from "./pages/Event-Calender/EventClander"
 import Sports from "./pages/Student-life/Sports";
 import StudentHandbook from "./pages/Student-Handbook/Student-Handbook";
 import Academics from "./pages/Academics/Academics";
 import CoCurricularPage from "./pages/Student-life/Co-Curricular/CoCurricularPage";
 import SocioPage from "./pages/Student-life/Socio-Cultural Dev/SocioPage";
-
 import StudentForm from "./pages/Council-Guidlines/Student"
 import ParentForm from "./pages/Council-Guidlines/Parent"
 import Achievements from "./pages/Achievements/Achievements"
@@ -64,9 +60,7 @@ function App() {
           <Route path='/CoCurricularPage' element={<CoCurricularPage />} />
           <Route path="/SocioPage" element={<SocioPage />} />
           <Route path = "/Toppers" element={<Toppers />} />
-          {/* About US */}
-          {/* <Route path="/media-gallery" element={<MediaGallery />} />
-          <Route path="/video-gallery" element={<VideoGallery />} /> */}
+         
            <Route path = "/Escholar" element ={<Escholar />} />
 
             <Route path = "/Toppers" element={<Toppers />} />
