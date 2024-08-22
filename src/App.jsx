@@ -71,6 +71,7 @@ function App() {
 
             <Route path = "/Toppers" element={<Toppers />} />
           <Route path = "/Cabinet" element ={<Cabinet/>}/>
+          <Route path = "/Academics" element ={<Academics/>}/>
         </Routes>
         <Footer />
       </div>
